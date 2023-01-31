@@ -1,0 +1,449 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:47:39 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Thu Apr 21 11:43:43 2022
+# Process ID: 169788
+# Current directory: /home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.runs/system_videoprocessor_0_0_synth_1
+# Command line: vivado -log system_videoprocessor_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source system_videoprocessor_0_0.tcl
+# Log file: /home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.runs/system_videoprocessor_0_0_synth_1/system_videoprocessor_0_0.vds
+# Journal file: /home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.runs/system_videoprocessor_0_0_synth_1/vivado.jou
+# Running On: pioneer, OS: Linux, CPU Frequency: 2200.000 MHz, CPU Physical cores: 32, Host memory: 67340 MB
+#-----------------------------------------------------------
+source system_videoprocessor_0_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/ip_repo/signaloutput_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/ip_repo/motor_steer_ctrl_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/ip_repo/videoprocessor_2.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/ip_repo/videoprocessor_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/ip_repo/colortester_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.ipdefs/repo_0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/xilinx/Vivado/2021.2/data/ip'.
+Command: synth_design -top system_videoprocessor_0_0 -part xc7z020clg400-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 169844
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:03 . Memory (MB): peak = 2750.816 ; gain = 0.000 ; free physical = 45830 ; free virtual = 52256
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'system_videoprocessor_0_0' [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ip/system_videoprocessor_0_0/synth/system_videoprocessor_0_0.vhd:97]
+	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S00_AXI_ADDR_WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'videoprocessor_v2_0' declared at '/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/06e1/hdl/videoprocessor_v2_0.vhd:5' bound to instance 'U0' of component 'videoprocessor_v2_0' [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ip/system_videoprocessor_0_0/synth/system_videoprocessor_0_0.vhd:176]
+INFO: [Synth 8-638] synthesizing module 'videoprocessor_v2_0' [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/06e1/hdl/videoprocessor_v2_0.vhd:70]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 8 - type: integer 
+INFO: [Synth 8-3491] module 'videoprocessor_v2_0_S00_AXI' declared at '/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/06e1/hdl/videoprocessor_v2_0_S00_AXI.vhd:6' bound to instance 'videoprocessor_v2_0_S00_AXI_inst' of component 'videoprocessor_v2_0_S00_AXI' [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/06e1/hdl/videoprocessor_v2_0.vhd:127]
+INFO: [Synth 8-638] synthesizing module 'videoprocessor_v2_0_S00_AXI' [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/06e1/hdl/videoprocessor_v2_0_S00_AXI.vhd:113]
+INFO: [Synth 8-226] default block is never used [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/06e1/hdl/videoprocessor_v2_0_S00_AXI.vhd:594]
+INFO: [Synth 8-226] default block is never used [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/06e1/hdl/videoprocessor_v2_0_S00_AXI.vhd:1264]
+INFO: [Synth 8-3491] module 'div_gen_0' declared at '/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ip/system_videoprocessor_0_0/src/div_gen_0_3/synth/div_gen_0.vhd:59' bound to instance 'divide_color2_X' of component 'div_gen_0' [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/06e1/hdl/videoprocessor_v2_0_S00_AXI.vhd:2316]
+INFO: [Synth 8-638] synthesizing module 'div_gen_0' [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ip/system_videoprocessor_0_0/src/div_gen_0_3/synth/div_gen_0.vhd:71]
+	Parameter C_XDEVICEFAMILY bound to: zynq - type: string 
+	Parameter C_HAS_ARESETN bound to: 0 - type: integer 
+	Parameter C_HAS_ACLKEN bound to: 0 - type: integer 
+	Parameter C_LATENCY bound to: 36 - type: integer 
+	Parameter ALGORITHM_TYPE bound to: 1 - type: integer 
+	Parameter DIVISOR_WIDTH bound to: 24 - type: integer 
+	Parameter DIVIDEND_WIDTH bound to: 32 - type: integer 
+	Parameter SIGNED_B bound to: 0 - type: integer 
+	Parameter DIVCLK_SEL bound to: 1 - type: integer 
+	Parameter FRACTIONAL_B bound to: 1 - type: integer 
+	Parameter FRACTIONAL_WIDTH bound to: 2 - type: integer 
+	Parameter C_HAS_DIV_BY_ZERO bound to: 0 - type: integer 
+	Parameter C_THROTTLE_SCHEME bound to: 3 - type: integer 
+	Parameter C_TLAST_RESOLUTION bound to: 0 - type: integer 
+	Parameter C_HAS_S_AXIS_DIVISOR_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_S_AXIS_DIVISOR_TLAST bound to: 0 - type: integer 
+	Parameter C_S_AXIS_DIVISOR_TDATA_WIDTH bound to: 24 - type: integer 
+	Parameter C_S_AXIS_DIVISOR_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_HAS_S_AXIS_DIVIDEND_TUSER bound to: 0 - type: integer 
+	Parameter C_HAS_S_AXIS_DIVIDEND_TLAST bound to: 0 - type: integer 
+	Parameter C_S_AXIS_DIVIDEND_TDATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXIS_DIVIDEND_TUSER_WIDTH bound to: 1 - type: integer 
+	Parameter C_M_AXIS_DOUT_TDATA_WIDTH bound to: 40 - type: integer 
+	Parameter C_M_AXIS_DOUT_TUSER_WIDTH bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'div_gen_v5_1_18' declared at '/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ip/system_videoprocessor_0_0/src/div_gen_0_3/hdl/div_gen_v5_1_vh_rfs.vhd:13859' bound to instance 'U0' of component 'div_gen_v5_1_18' [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ip/system_videoprocessor_0_0/src/div_gen_0_3/synth/div_gen_0.vhd:143]
+INFO: [Synth 8-256] done synthesizing module 'div_gen_0' (10#1) [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ip/system_videoprocessor_0_0/src/div_gen_0_3/synth/div_gen_0.vhd:71]
+INFO: [Synth 8-3491] module 'div_gen_0' declared at '/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ip/system_videoprocessor_0_0/src/div_gen_0_3/synth/div_gen_0.vhd:59' bound to instance 'divide_color2_Y' of component 'div_gen_0' [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/06e1/hdl/videoprocessor_v2_0_S00_AXI.vhd:2326]
+INFO: [Synth 8-3491] module 'div_gen_0' declared at '/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ip/system_videoprocessor_0_0/src/div_gen_0_3/synth/div_gen_0.vhd:59' bound to instance 'divide_color1_X' of component 'div_gen_0' [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/06e1/hdl/videoprocessor_v2_0_S00_AXI.vhd:2336]
+INFO: [Synth 8-3491] module 'div_gen_0' declared at '/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ip/system_videoprocessor_0_0/src/div_gen_0_3/synth/div_gen_0.vhd:59' bound to instance 'divide_color1_Y' of component 'div_gen_0' [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/06e1/hdl/videoprocessor_v2_0_S00_AXI.vhd:2346]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg6_reg was removed.  [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/06e1/hdl/videoprocessor_v2_0_S00_AXI.vhd:533]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg7_reg was removed.  [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/06e1/hdl/videoprocessor_v2_0_S00_AXI.vhd:534]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg8_reg was removed.  [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/06e1/hdl/videoprocessor_v2_0_S00_AXI.vhd:535]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg9_reg was removed.  [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/06e1/hdl/videoprocessor_v2_0_S00_AXI.vhd:536]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg26_reg was removed.  [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/06e1/hdl/videoprocessor_v2_0_S00_AXI.vhd:553]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg27_reg was removed.  [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/06e1/hdl/videoprocessor_v2_0_S00_AXI.vhd:554]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg28_reg was removed.  [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/06e1/hdl/videoprocessor_v2_0_S00_AXI.vhd:555]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg29_reg was removed.  [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/06e1/hdl/videoprocessor_v2_0_S00_AXI.vhd:556]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg30_reg was removed.  [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/06e1/hdl/videoprocessor_v2_0_S00_AXI.vhd:557]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg31_reg was removed.  [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/06e1/hdl/videoprocessor_v2_0_S00_AXI.vhd:558]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg32_reg was removed.  [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/06e1/hdl/videoprocessor_v2_0_S00_AXI.vhd:559]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg33_reg was removed.  [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/06e1/hdl/videoprocessor_v2_0_S00_AXI.vhd:560]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg34_reg was removed.  [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/06e1/hdl/videoprocessor_v2_0_S00_AXI.vhd:561]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg35_reg was removed.  [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/06e1/hdl/videoprocessor_v2_0_S00_AXI.vhd:562]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg36_reg was removed.  [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/06e1/hdl/videoprocessor_v2_0_S00_AXI.vhd:563]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg37_reg was removed.  [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/06e1/hdl/videoprocessor_v2_0_S00_AXI.vhd:564]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg38_reg was removed.  [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/06e1/hdl/videoprocessor_v2_0_S00_AXI.vhd:565]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg39_reg was removed.  [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/06e1/hdl/videoprocessor_v2_0_S00_AXI.vhd:566]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg40_reg was removed.  [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/06e1/hdl/videoprocessor_v2_0_S00_AXI.vhd:567]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg41_reg was removed.  [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/06e1/hdl/videoprocessor_v2_0_S00_AXI.vhd:568]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg42_reg was removed.  [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/06e1/hdl/videoprocessor_v2_0_S00_AXI.vhd:569]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg43_reg was removed.  [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/06e1/hdl/videoprocessor_v2_0_S00_AXI.vhd:570]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg44_reg was removed.  [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/06e1/hdl/videoprocessor_v2_0_S00_AXI.vhd:571]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg45_reg was removed.  [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/06e1/hdl/videoprocessor_v2_0_S00_AXI.vhd:572]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg46_reg was removed.  [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/06e1/hdl/videoprocessor_v2_0_S00_AXI.vhd:573]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg47_reg was removed.  [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/06e1/hdl/videoprocessor_v2_0_S00_AXI.vhd:574]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg48_reg was removed.  [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/06e1/hdl/videoprocessor_v2_0_S00_AXI.vhd:575]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg49_reg was removed.  [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/06e1/hdl/videoprocessor_v2_0_S00_AXI.vhd:576]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg50_reg was removed.  [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/06e1/hdl/videoprocessor_v2_0_S00_AXI.vhd:577]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg51_reg was removed.  [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/06e1/hdl/videoprocessor_v2_0_S00_AXI.vhd:578]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg52_reg was removed.  [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/06e1/hdl/videoprocessor_v2_0_S00_AXI.vhd:579]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg53_reg was removed.  [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/06e1/hdl/videoprocessor_v2_0_S00_AXI.vhd:580]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg54_reg was removed.  [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/06e1/hdl/videoprocessor_v2_0_S00_AXI.vhd:581]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg55_reg was removed.  [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/06e1/hdl/videoprocessor_v2_0_S00_AXI.vhd:582]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg56_reg was removed.  [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/06e1/hdl/videoprocessor_v2_0_S00_AXI.vhd:583]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg57_reg was removed.  [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/06e1/hdl/videoprocessor_v2_0_S00_AXI.vhd:584]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg58_reg was removed.  [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/06e1/hdl/videoprocessor_v2_0_S00_AXI.vhd:585]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg59_reg was removed.  [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/06e1/hdl/videoprocessor_v2_0_S00_AXI.vhd:586]
+WARNING: [Synth 8-6014] Unused sequential element slv_reg63_reg was removed.  [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/06e1/hdl/videoprocessor_v2_0_S00_AXI.vhd:590]
+WARNING: [Synth 8-6014] Unused sequential element loc_addr_reg was removed.  [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/06e1/hdl/videoprocessor_v2_0_S00_AXI.vhd:592]
+WARNING: [Synth 8-6014] Unused sequential element wavestate_reg was removed.  [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/06e1/hdl/videoprocessor_v2_0_S00_AXI.vhd:1561]
+WARNING: [Synth 8-3848] Net slv_reg36_out in module/entity videoprocessor_v2_0_S00_AXI does not have driver. [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/06e1/hdl/videoprocessor_v2_0_S00_AXI.vhd:164]
+WARNING: [Synth 8-3848] Net slv_reg37_out in module/entity videoprocessor_v2_0_S00_AXI does not have driver. [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/06e1/hdl/videoprocessor_v2_0_S00_AXI.vhd:164]
+WARNING: [Synth 8-3848] Net slv_reg38_out in module/entity videoprocessor_v2_0_S00_AXI does not have driver. [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/06e1/hdl/videoprocessor_v2_0_S00_AXI.vhd:164]
+WARNING: [Synth 8-3848] Net slv_reg39_out in module/entity videoprocessor_v2_0_S00_AXI does not have driver. [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/06e1/hdl/videoprocessor_v2_0_S00_AXI.vhd:164]
+INFO: [Synth 8-256] done synthesizing module 'videoprocessor_v2_0_S00_AXI' (11#1) [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/06e1/hdl/videoprocessor_v2_0_S00_AXI.vhd:113]
+INFO: [Synth 8-256] done synthesizing module 'videoprocessor_v2_0' (12#1) [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/06e1/hdl/videoprocessor_v2_0.vhd:70]
+INFO: [Synth 8-256] done synthesizing module 'system_videoprocessor_0_0' (13#1) [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ip/system_videoprocessor_0_0/synth/system_videoprocessor_0_0.vhd:97]
+WARNING: [Synth 8-7129] Port CE in module xbip_pipe_v3_0_6_viv__parameterized135 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SCLR in module xbip_pipe_v3_0_6_viv__parameterized135 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSET in module xbip_pipe_v3_0_6_viv__parameterized135 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SINIT in module xbip_pipe_v3_0_6_viv__parameterized135 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CE in module xbip_pipe_v3_0_6_viv__parameterized3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SCLR in module xbip_pipe_v3_0_6_viv__parameterized3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSET in module xbip_pipe_v3_0_6_viv__parameterized3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SINIT in module xbip_pipe_v3_0_6_viv__parameterized3 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CE in module xbip_pipe_v3_0_6_viv__parameterized133 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SCLR in module xbip_pipe_v3_0_6_viv__parameterized133 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSET in module xbip_pipe_v3_0_6_viv__parameterized133 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SINIT in module xbip_pipe_v3_0_6_viv__parameterized133 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CE in module xbip_pipe_v3_0_6_viv__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SCLR in module xbip_pipe_v3_0_6_viv__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSET in module xbip_pipe_v3_0_6_viv__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SINIT in module xbip_pipe_v3_0_6_viv__parameterized7 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CE in module xbip_pipe_v3_0_6_viv__parameterized5 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SCLR in module xbip_pipe_v3_0_6_viv__parameterized5 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSET in module xbip_pipe_v3_0_6_viv__parameterized5 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SINIT in module xbip_pipe_v3_0_6_viv__parameterized5 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port c_out in module c_addsub_lut6 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ce in module c_addsub_lut6 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port bypass in module c_addsub_lut6 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aclr in module c_addsub_lut6 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aset in module c_addsub_lut6 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port ainit in module c_addsub_lut6 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sclr in module c_addsub_lut6 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sset in module c_addsub_lut6 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port sinit in module c_addsub_lut6 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b_in in module c_addsub_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port a_signed in module c_addsub_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port b_signed in module c_addsub_viv is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CE in module xbip_pipe_v3_0_6_viv__parameterized131 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SCLR in module xbip_pipe_v3_0_6_viv__parameterized131 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSET in module xbip_pipe_v3_0_6_viv__parameterized131 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SINIT in module xbip_pipe_v3_0_6_viv__parameterized131 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CE in module xbip_pipe_v3_0_6_viv__parameterized129 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SCLR in module xbip_pipe_v3_0_6_viv__parameterized129 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSET in module xbip_pipe_v3_0_6_viv__parameterized129 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SINIT in module xbip_pipe_v3_0_6_viv__parameterized129 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CE in module xbip_pipe_v3_0_6_viv__parameterized126 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SCLR in module xbip_pipe_v3_0_6_viv__parameterized126 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSET in module xbip_pipe_v3_0_6_viv__parameterized126 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SINIT in module xbip_pipe_v3_0_6_viv__parameterized126 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CE in module xbip_pipe_v3_0_6_viv__parameterized124 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SCLR in module xbip_pipe_v3_0_6_viv__parameterized124 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSET in module xbip_pipe_v3_0_6_viv__parameterized124 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SINIT in module xbip_pipe_v3_0_6_viv__parameterized124 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CE in module xbip_pipe_v3_0_6_viv__parameterized122 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SCLR in module xbip_pipe_v3_0_6_viv__parameterized122 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSET in module xbip_pipe_v3_0_6_viv__parameterized122 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SINIT in module xbip_pipe_v3_0_6_viv__parameterized122 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CE in module xbip_pipe_v3_0_6_viv__parameterized120 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SCLR in module xbip_pipe_v3_0_6_viv__parameterized120 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSET in module xbip_pipe_v3_0_6_viv__parameterized120 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SINIT in module xbip_pipe_v3_0_6_viv__parameterized120 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CE in module xbip_pipe_v3_0_6_viv__parameterized118 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SCLR in module xbip_pipe_v3_0_6_viv__parameterized118 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSET in module xbip_pipe_v3_0_6_viv__parameterized118 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SINIT in module xbip_pipe_v3_0_6_viv__parameterized118 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CE in module xbip_pipe_v3_0_6_viv__parameterized116 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SCLR in module xbip_pipe_v3_0_6_viv__parameterized116 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSET in module xbip_pipe_v3_0_6_viv__parameterized116 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SINIT in module xbip_pipe_v3_0_6_viv__parameterized116 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CE in module xbip_pipe_v3_0_6_viv__parameterized114 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SCLR in module xbip_pipe_v3_0_6_viv__parameterized114 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSET in module xbip_pipe_v3_0_6_viv__parameterized114 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SINIT in module xbip_pipe_v3_0_6_viv__parameterized114 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CE in module xbip_pipe_v3_0_6_viv__parameterized112 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SCLR in module xbip_pipe_v3_0_6_viv__parameterized112 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSET in module xbip_pipe_v3_0_6_viv__parameterized112 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SINIT in module xbip_pipe_v3_0_6_viv__parameterized112 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CE in module xbip_pipe_v3_0_6_viv__parameterized110 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SCLR in module xbip_pipe_v3_0_6_viv__parameterized110 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSET in module xbip_pipe_v3_0_6_viv__parameterized110 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SINIT in module xbip_pipe_v3_0_6_viv__parameterized110 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CE in module xbip_pipe_v3_0_6_viv__parameterized108 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SCLR in module xbip_pipe_v3_0_6_viv__parameterized108 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSET in module xbip_pipe_v3_0_6_viv__parameterized108 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SINIT in module xbip_pipe_v3_0_6_viv__parameterized108 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CE in module xbip_pipe_v3_0_6_viv__parameterized105 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SCLR in module xbip_pipe_v3_0_6_viv__parameterized105 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSET in module xbip_pipe_v3_0_6_viv__parameterized105 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SINIT in module xbip_pipe_v3_0_6_viv__parameterized105 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CE in module xbip_pipe_v3_0_6_viv__parameterized103 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SCLR in module xbip_pipe_v3_0_6_viv__parameterized103 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSET in module xbip_pipe_v3_0_6_viv__parameterized103 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SINIT in module xbip_pipe_v3_0_6_viv__parameterized103 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CE in module xbip_pipe_v3_0_6_viv__parameterized101 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SCLR in module xbip_pipe_v3_0_6_viv__parameterized101 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSET in module xbip_pipe_v3_0_6_viv__parameterized101 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SINIT in module xbip_pipe_v3_0_6_viv__parameterized101 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CE in module xbip_pipe_v3_0_6_viv__parameterized99 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SCLR in module xbip_pipe_v3_0_6_viv__parameterized99 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSET in module xbip_pipe_v3_0_6_viv__parameterized99 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SINIT in module xbip_pipe_v3_0_6_viv__parameterized99 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port CE in module xbip_pipe_v3_0_6_viv__parameterized97 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SCLR in module xbip_pipe_v3_0_6_viv__parameterized97 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SSET in module xbip_pipe_v3_0_6_viv__parameterized97 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port SINIT in module xbip_pipe_v3_0_6_viv__parameterized97 is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 2750.816 ; gain = 0.000 ; free physical = 46779 ; free virtual = 53207
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2750.816 ; gain = 0.000 ; free physical = 46780 ; free virtual = 53209
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2750.816 ; gain = 0.000 ; free physical = 46780 ; free virtual = 53209
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.20 ; elapsed = 00:00:00.21 . Memory (MB): peak = 2750.816 ; gain = 0.000 ; free physical = 46748 ; free virtual = 53176
+INFO: [Netlist 29-17] Analyzing 6800 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.runs/system_videoprocessor_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.runs/system_videoprocessor_0_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2831.590 ; gain = 0.000 ; free physical = 46628 ; free virtual = 53056
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.43 ; elapsed = 00:00:00.11 . Memory (MB): peak = 2831.590 ; gain = 0.000 ; free physical = 46622 ; free virtual = 53050
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 2831.590 ; gain = 80.773 ; free physical = 46753 ; free virtual = 53181
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 2831.590 ; gain = 80.773 ; free physical = 46753 ; free virtual = 53181
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for U0/videoprocessor_v2_0_S00_AXI_inst/divide_color2_X. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for U0/videoprocessor_v2_0_S00_AXI_inst/divide_color1_X. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for U0/videoprocessor_v2_0_S00_AXI_inst/divide_color1_Y. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for U0/videoprocessor_v2_0_S00_AXI_inst/divide_color2_Y. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 2831.590 ; gain = 80.773 ; free physical = 46753 ; free virtual = 53181
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'outputState_reg' in module 'videoprocessor_v2_0_S00_AXI'
+INFO: [Synth 8-802] inferred FSM for state register 'color1State_reg' in module 'videoprocessor_v2_0_S00_AXI'
+INFO: [Synth 8-802] inferred FSM for state register 'color2State_reg' in module 'videoprocessor_v2_0_S00_AXI'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 st_wait |                               00 |                               00
+        st_subcorrection |                               01 |                               01
+             st_counting |                               10 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'color2State_reg' using encoding 'sequential' in module 'videoprocessor_v2_0_S00_AXI'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 st_wait |                               00 |                               00
+        st_subcorrection |                               01 |                               01
+             st_counting |                               10 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'color1State_reg' using encoding 'sequential' in module 'videoprocessor_v2_0_S00_AXI'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                st_start |                              001 |                               00
+            st_something |                              010 |                               01
+                 st_done |                              100 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'outputState_reg' using encoding 'one-hot' in module 'videoprocessor_v2_0_S00_AXI'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 2831.590 ; gain = 80.773 ; free physical = 46744 ; free virtual = 53176
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 2831.590 ; gain = 80.773 ; free physical = 46696 ; free virtual = 53139
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 2831.590 ; gain = 80.773 ; free physical = 46556 ; free virtual = 52999
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:21 . Memory (MB): peak = 2831.590 ; gain = 80.773 ; free physical = 46556 ; free virtual = 52999
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:22 ; elapsed = 00:00:22 . Memory (MB): peak = 2831.590 ; gain = 80.773 ; free physical = 46536 ; free virtual = 52979
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 2831.590 ; gain = 80.773 ; free physical = 46529 ; free virtual = 52972
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 2831.590 ; gain = 80.773 ; free physical = 46529 ; free virtual = 52972
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 2831.590 ; gain = 80.773 ; free physical = 46520 ; free virtual = 52963
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 2831.590 ; gain = 80.773 ; free physical = 46520 ; free virtual = 52963
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:26 ; elapsed = 00:00:26 . Memory (MB): peak = 2831.590 ; gain = 80.773 ; free physical = 46516 ; free virtual = 52959
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:26 ; elapsed = 00:00:26 . Memory (MB): peak = 2831.590 ; gain = 80.773 ; free physical = 46516 ; free virtual = 52959
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |CARRY4  |   400|
+|2     |DSP48E1 |     4|
+|4     |LUT1    |   433|
+|5     |LUT2    |  1218|
+|6     |LUT3    |  3241|
+|7     |LUT4    |   383|
+|8     |LUT5    |   231|
+|9     |LUT6    |   894|
+|10    |MUXCY   |  3400|
+|11    |MUXF7   |   173|
+|12    |MUXF8   |    57|
+|13    |SRLC32E |     8|
+|14    |XORCY   |  3400|
+|15    |FDCE    |    12|
+|16    |FDPE    |     3|
+|17    |FDRE    | 13232|
+|18    |FDSE    |    14|
++------+--------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:26 ; elapsed = 00:00:26 . Memory (MB): peak = 2831.590 ; gain = 80.773 ; free physical = 46516 ; free virtual = 52959
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 8 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 2831.590 ; gain = 0.000 ; free physical = 46581 ; free virtual = 53024
+Synthesis Optimization Complete : Time (s): cpu = 00:00:26 ; elapsed = 00:00:26 . Memory (MB): peak = 2831.590 ; gain = 80.773 ; free physical = 46581 ; free virtual = 53024
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.16 ; elapsed = 00:00:00.16 . Memory (MB): peak = 2831.590 ; gain = 0.000 ; free physical = 46657 ; free virtual = 53100
+INFO: [Netlist 29-17] Analyzing 7434 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2865.402 ; gain = 0.000 ; free physical = 46523 ; free virtual = 52966
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 952 instances were transformed.
+  (MUXCY,XORCY) => CARRY4: 952 instances
+
+Synth Design complete, checksum: f7c0acb2
+INFO: [Common 17-83] Releasing license: Synthesis
+48 Infos, 146 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:34 ; elapsed = 00:00:31 . Memory (MB): peak = 2865.402 ; gain = 114.688 ; free physical = 46751 ; free virtual = 53194
+INFO: [Common 17-1381] The checkpoint '/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.runs/system_videoprocessor_0_0_synth_1/system_videoprocessor_0_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP system_videoprocessor_0_0, cache-ID = 128d0230c1cddfc4
+INFO: [Coretcl 2-1174] Renamed 1250 cell refs.
+INFO: [Common 17-1381] The checkpoint '/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.runs/system_videoprocessor_0_0_synth_1/system_videoprocessor_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file system_videoprocessor_0_0_utilization_synth.rpt -pb system_videoprocessor_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Apr 21 11:44:27 2022...

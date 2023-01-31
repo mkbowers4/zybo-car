@@ -1,0 +1,19 @@
+verilog xil_defaultlib --include "/opt/xilinx/Vivado/2021.2/data/xilinx_vip/include" --include "../../../../Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/ec67/hdl" --include "../../../../Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/3007/hdl" --include "../../../../Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ip/system_MIPI_CSI_2_RX_0_0/hdl/line_buffer/hdl" --include "../../../../Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ip/system_MIPI_CSI_2_RX_0_0/hdl/ila_vidclk/hdl/verilog" --include "../../../../Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ip/system_MIPI_CSI_2_RX_0_0/hdl/ila_rxclk_lane/hdl/verilog" --include "../../../../Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ip/system_MIPI_CSI_2_RX_0_0/hdl/ila_rxclk/hdl/verilog" --include "../../../../Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ip/system_MIPI_D_PHY_RX_0_0/hdl/ila_scnn_refclk/hdl/verilog" --include "../../../../Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ip/system_MIPI_D_PHY_RX_0_0/hdl/ila_sfen_refclk/hdl/verilog" --include "../../../../Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ip/system_MIPI_D_PHY_RX_0_0/hdl/ila_sfen_rxclk/hdl/verilog" --include "../../../../Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/36fa/hdl" --include "../../../../Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/62b6" \
+"../../../bd/system/ip/system_processing_system7_0_0/sim/system_processing_system7_0_0.v" \
+"../../../bd/system/ip/system_MIPI_CSI_2_RX_0_0/hdl/cdc_fifo/sim/cdc_fifo.v" \
+"../../../bd/system/ip/system_MIPI_CSI_2_RX_0_0/hdl/line_buffer/sim/line_buffer.v" \
+"../../../bd/system/ip/system_clk_wiz_0_0/system_clk_wiz_0_0_clk_wiz.v" \
+"../../../bd/system/ip/system_clk_wiz_0_0/system_clk_wiz_0_0.v" \
+"../../../bd/system/ip/system_xbar_0/sim/system_xbar_0.v" \
+"../../../bd/system/ip/system_v_axi4s_vid_out_0_0/sim/system_v_axi4s_vid_out_0_0.v" \
+"../../../bd/system/ip/system_video_dynclk_0/system_video_dynclk_0_mmcm_pll_drp.v" \
+"../../../bd/system/ip/system_video_dynclk_0/system_video_dynclk_0_clk_wiz.v" \
+"../../../bd/system/ip/system_video_dynclk_0/system_video_dynclk_0.v" \
+"../../../bd/system/ip/system_xlconcat_0_0/sim/system_xlconcat_0_0.v" \
+"../../../bd/system/ip/system_auto_pc_0/sim/system_auto_pc_0.v" \
+"../../../bd/system/ip/system_auto_pc_1/sim/system_auto_pc_1.v" \
+"../../../bd/system/ip/system_auto_pc_2/sim/system_auto_pc_2.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

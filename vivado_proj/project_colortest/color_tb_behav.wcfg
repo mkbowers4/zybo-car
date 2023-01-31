@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="color_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="color_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000000 ms"></ZoomStartTime>
+      <ZoomEndTime time="20.000000001 ms"></ZoomEndTime>
+      <Cursor1Time time="0.001505000 ms"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="228"></NameColumnWidth>
+      <ValueColumnWidth column_width="79"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="45" />
+   <wvobject type="logic" fp_name="/color_tb/PixelClk_tb">
+      <obj_property name="ElementShortName">PixelClk_tb</obj_property>
+      <obj_property name="ObjectShortName">PixelClk_tb</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/color_tb/countinline">
+      <obj_property name="ElementShortName">countinline</obj_property>
+      <obj_property name="ObjectShortName">countinline</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/color_tb/vid_active_video_in_tb">
+      <obj_property name="ElementShortName">vid_active_video_in_tb</obj_property>
+      <obj_property name="ObjectShortName">vid_active_video_in_tb</obj_property>
+      <obj_property name="CustomSignalColor">#008080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/color_tb/vid_hsync_in_tb">
+      <obj_property name="ElementShortName">vid_hsync_in_tb</obj_property>
+      <obj_property name="ObjectShortName">vid_hsync_in_tb</obj_property>
+      <obj_property name="CustomSignalColor">#008080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/color_tb/vid_hblank_in_tb">
+      <obj_property name="ElementShortName">vid_hblank_in_tb</obj_property>
+      <obj_property name="ObjectShortName">vid_hblank_in_tb</obj_property>
+      <obj_property name="CustomSignalColor">#008080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/color_tb/wavestatetb">
+      <obj_property name="ElementShortName">wavestatetb</obj_property>
+      <obj_property name="ObjectShortName">wavestatetb</obj_property>
+      <obj_property name="CustomSignalColor">#008080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/color_tb/vid_data_in_tb">
+      <obj_property name="ElementShortName">vid_data_in_tb[23:0]</obj_property>
+      <obj_property name="ObjectShortName">vid_data_in_tb[23:0]</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/color_tb/vid_data_inin_tb">
+      <obj_property name="ElementShortName">vid_data_inin_tb[23:0]</obj_property>
+      <obj_property name="ObjectShortName">vid_data_inin_tb[23:0]</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/color_tb/flip">
+      <obj_property name="ElementShortName">flip</obj_property>
+      <obj_property name="ObjectShortName">flip</obj_property>
+      <obj_property name="CustomSignalColor">#0000A0</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/color_tb/countvertical">
+      <obj_property name="ElementShortName">countvertical</obj_property>
+      <obj_property name="ObjectShortName">countvertical</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/color_tb/countinline">
+      <obj_property name="ElementShortName">countinline</obj_property>
+      <obj_property name="ObjectShortName">countinline</obj_property>
+      <obj_property name="CustomSignalColor">#0000FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/color_tb/vid_active_video_out_tb">
+      <obj_property name="ElementShortName">vid_active_video_out_tb</obj_property>
+      <obj_property name="ObjectShortName">vid_active_video_out_tb</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/color_tb/vid_hsync_out_tb">
+      <obj_property name="ElementShortName">vid_hsync_out_tb</obj_property>
+      <obj_property name="ObjectShortName">vid_hsync_out_tb</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/color_tb/UUT/wavestate">
+      <obj_property name="ElementShortName">wavestate</obj_property>
+      <obj_property name="ObjectShortName">wavestate</obj_property>
+      <obj_property name="CustomSignalColor">#FAAFBE</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/color_tb/vid_data_out_tb">
+      <obj_property name="ElementShortName">vid_data_out_tb[23:0]</obj_property>
+      <obj_property name="ObjectShortName">vid_data_out_tb[23:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/color_tb/UUT/hpcount">
+      <obj_property name="ElementShortName">hpcount</obj_property>
+      <obj_property name="ObjectShortName">hpcount</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/color_tb/UUT/vpcount">
+      <obj_property name="ElementShortName">vpcount</obj_property>
+      <obj_property name="ObjectShortName">vpcount</obj_property>
+      <obj_property name="CustomSignalColor">#FF00FF</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/color_tb/UUT/SLICEINDEX">
+      <obj_property name="ElementShortName">SLICEINDEX</obj_property>
+      <obj_property name="ObjectShortName">SLICEINDEX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/color_tb/UUT/firstLocalXCentroid">
+      <obj_property name="ElementShortName">firstLocalXCentroid[0:4][10:0]</obj_property>
+      <obj_property name="ObjectShortName">firstLocalXCentroid[0:4][10:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/color_tb/UUT/secondLocalXCentroid">
+      <obj_property name="ElementShortName">secondLocalXCentroid[0:4][10:0]</obj_property>
+      <obj_property name="ObjectShortName">secondLocalXCentroid[0:4][10:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/color_tb/UUT/middleXCentroid">
+      <obj_property name="ElementShortName">middleXCentroid[0:4][10:0]</obj_property>
+      <obj_property name="ObjectShortName">middleXCentroid[0:4][10:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/color_tb/UUT/middleYCentroid">
+      <obj_property name="ElementShortName">middleYCentroid[0:4][9:0]</obj_property>
+      <obj_property name="ObjectShortName">middleYCentroid[0:4][9:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/color_tb/UUT/failureReport">
+      <obj_property name="ElementShortName">failureReport[0:4]</obj_property>
+      <obj_property name="ObjectShortName">failureReport[0:4]</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/color_tb/UUT/doSliceCalculation_Flag">
+      <obj_property name="ElementShortName">doSliceCalculation_Flag</obj_property>
+      <obj_property name="ObjectShortName">doSliceCalculation_Flag</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/color_tb/UUT/doCentroidCalc_Flag">
+      <obj_property name="ElementShortName">doCentroidCalc_Flag</obj_property>
+      <obj_property name="ObjectShortName">doCentroidCalc_Flag</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="logic" fp_name="/color_tb/UUT/laneSliceDetectFail_Flag">
+      <obj_property name="ElementShortName">laneSliceDetectFail_Flag</obj_property>
+      <obj_property name="ObjectShortName">laneSliceDetectFail_Flag</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/color_tb/UUT/w_count_first">
+      <obj_property name="ElementShortName">w_count_first</obj_property>
+      <obj_property name="ObjectShortName">w_count_first</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/color_tb/UUT/b_count_first">
+      <obj_property name="ElementShortName">b_count_first</obj_property>
+      <obj_property name="ObjectShortName">b_count_first</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/color_tb/UUT/w_count_second">
+      <obj_property name="ElementShortName">w_count_second</obj_property>
+      <obj_property name="ObjectShortName">w_count_second</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/color_tb/UUT/b_count_second">
+      <obj_property name="ElementShortName">b_count_second</obj_property>
+      <obj_property name="ObjectShortName">b_count_second</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/color_tb/UUT/saveFirstLeftPixelPos">
+      <obj_property name="ElementShortName">saveFirstLeftPixelPos</obj_property>
+      <obj_property name="ObjectShortName">saveFirstLeftPixelPos</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/color_tb/UUT/saveFirstRightPixelPos">
+      <obj_property name="ElementShortName">saveFirstRightPixelPos</obj_property>
+      <obj_property name="ObjectShortName">saveFirstRightPixelPos</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/color_tb/UUT/saveSecondLeftPixelPos">
+      <obj_property name="ElementShortName">saveSecondLeftPixelPos</obj_property>
+      <obj_property name="ObjectShortName">saveSecondLeftPixelPos</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/color_tb/UUT/saveSecondRightPixelPos">
+      <obj_property name="ElementShortName">saveSecondRightPixelPos</obj_property>
+      <obj_property name="ObjectShortName">saveSecondRightPixelPos</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/color_tb/UUT/firstPixelSum">
+      <obj_property name="ElementShortName">firstPixelSum[11:0]</obj_property>
+      <obj_property name="ObjectShortName">firstPixelSum[11:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/color_tb/UUT/secondPixelSum">
+      <obj_property name="ElementShortName">secondPixelSum[11:0]</obj_property>
+      <obj_property name="ObjectShortName">secondPixelSum[11:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/color_tb/UUT/middlePixelSum">
+      <obj_property name="ElementShortName">middlePixelSum[11:0]</obj_property>
+      <obj_property name="ObjectShortName">middlePixelSum[11:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/color_tb/UUT/sliceState">
+      <obj_property name="ElementShortName">sliceState</obj_property>
+      <obj_property name="ObjectShortName">sliceState</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/color_tb/UUT/centroidCalcState">
+      <obj_property name="ElementShortName">centroidCalcState</obj_property>
+      <obj_property name="ObjectShortName">centroidCalcState</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="other" fp_name="/color_tb/UUT/sliceDetectState">
+      <obj_property name="ElementShortName">sliceDetectState</obj_property>
+      <obj_property name="ObjectShortName">sliceDetectState</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/color_tb/UUT/simplewhitethresh">
+      <obj_property name="ElementShortName">simplewhitethresh[7:0]</obj_property>
+      <obj_property name="ObjectShortName">simplewhitethresh[7:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/color_tb/UUT/bigpurple">
+      <obj_property name="ElementShortName">bigpurple[23:0]</obj_property>
+      <obj_property name="ObjectShortName">bigpurple[23:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/color_tb/UUT/sliceStartCount">
+      <obj_property name="ElementShortName">sliceStartCount[0:4][10:0]</obj_property>
+      <obj_property name="ObjectShortName">sliceStartCount[0:4][10:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/color_tb/UUT/sliceStopCount">
+      <obj_property name="ElementShortName">sliceStopCount[0:4][10:0]</obj_property>
+      <obj_property name="ObjectShortName">sliceStopCount[0:4][10:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject type="array" fp_name="/color_tb/UUT/sliceYpos">
+      <obj_property name="ElementShortName">sliceYpos[0:4][9:0]</obj_property>
+      <obj_property name="ObjectShortName">sliceYpos[0:4][9:0]</obj_property>
+      <obj_property name="CustomSignalColor">#FF0080</obj_property>
+      <obj_property name="UseCustomSignalColor">true</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

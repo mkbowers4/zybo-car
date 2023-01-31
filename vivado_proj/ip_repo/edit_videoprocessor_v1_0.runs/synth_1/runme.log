@@ -1,0 +1,308 @@
+
+*** Running vivado
+    with args -log videoprocessor_v1_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source videoprocessor_v1_0.tcl
+
+
+****** Vivado v2021.2 (64-bit)
+  **** SW Build 3367213 on Tue Oct 19 02:47:39 MDT 2021
+  **** IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+source videoprocessor_v1_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/ip_repo/videoprocessor_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/ip_repo/colortester_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.ipdefs/repo_0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/xilinx/Vivado/2021.2/data/ip'.
+Command: synth_design -top videoprocessor_v1_0 -part xc7z020clg400-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 26300
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2749.848 ; gain = 0.000 ; free physical = 54187 ; free virtual = 59786
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'videoprocessor_v1_0' [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/ip_repo/videoprocessor_1.0/hdl/videoprocessor_v1_0.vhd:71]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 7 - type: integer 
+INFO: [Synth 8-3491] module 'videoprocessor_v1_0_S00_AXI' declared at '/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/ip_repo/videoprocessor_1.0/hdl/videoprocessor_v1_0_S00_AXI.vhd:7' bound to instance 'videoprocessor_v1_0_S00_AXI_inst' of component 'videoprocessor_v1_0_S00_AXI' [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/ip_repo/videoprocessor_1.0/hdl/videoprocessor_v1_0.vhd:128]
+INFO: [Synth 8-638] synthesizing module 'videoprocessor_v1_0_S00_AXI' [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/ip_repo/videoprocessor_1.0/hdl/videoprocessor_v1_0_S00_AXI.vhd:116]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 7 - type: integer 
+INFO: [Synth 8-226] default block is never used [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/ip_repo/videoprocessor_1.0/hdl/videoprocessor_v1_0_S00_AXI.vhd:411]
+INFO: [Synth 8-226] default block is never used [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/ip_repo/videoprocessor_1.0/hdl/videoprocessor_v1_0_S00_AXI.vhd:793]
+WARNING: [Synth 8-614] signal 'middleXCentroid' is read in the process but is not in the sensitivity list [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/ip_repo/videoprocessor_1.0/hdl/videoprocessor_v1_0_S00_AXI.vhd:1217]
+WARNING: [Synth 8-6014] Unused sequential element loc_addr_reg was removed.  [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/ip_repo/videoprocessor_1.0/hdl/videoprocessor_v1_0_S00_AXI.vhd:409]
+WARNING: [Synth 8-6014] Unused sequential element wavestate_reg was removed.  [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/ip_repo/videoprocessor_1.0/hdl/videoprocessor_v1_0_S00_AXI.vhd:919]
+INFO: [Synth 8-256] done synthesizing module 'videoprocessor_v1_0_S00_AXI' (1#1) [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/ip_repo/videoprocessor_1.0/hdl/videoprocessor_v1_0_S00_AXI.vhd:116]
+INFO: [Synth 8-256] done synthesizing module 'videoprocessor_v1_0' (2#1) [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/ip_repo/videoprocessor_1.0/hdl/videoprocessor_v1_0.vhd:71]
+WARNING: [Synth 8-7129] Port vid_field_id_in in module videoprocessor_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[2] in module videoprocessor_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[1] in module videoprocessor_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[0] in module videoprocessor_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[2] in module videoprocessor_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[1] in module videoprocessor_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[0] in module videoprocessor_v1_0_S00_AXI is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2749.848 ; gain = 0.000 ; free physical = 55102 ; free virtual = 60709
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2749.848 ; gain = 0.000 ; free physical = 55087 ; free virtual = 60694
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2757.750 ; gain = 7.902 ; free physical = 55087 ; free virtual = 60694
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Synth 8-802] inferred FSM for state register 'outputState_reg' in module 'videoprocessor_v1_0_S00_AXI'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                st_start |                            00001 |                              000
+              st_packing |                            00010 |                              001
+            st_something |                            00100 |                              010
+                 st_done |                            01000 |                              011
+           st_something2 |                            10000 |                              100
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'outputState_reg' using encoding 'one-hot' in module 'videoprocessor_v1_0_S00_AXI'
+WARNING: [Synth 8-327] inferring latch for variable 'centroidon_reg' [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/ip_repo/videoprocessor_1.0/hdl/videoprocessor_v1_0_S00_AXI.vhd:1223]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2757.750 ; gain = 7.902 ; free physical = 55034 ; free virtual = 60668
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input   13 Bit       Adders := 5     
+	   2 Input   12 Bit       Adders := 7     
+	   2 Input   11 Bit       Adders := 7     
+	   2 Input   10 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 33    
+	               12 Bit    Registers := 2     
+	               11 Bit    Registers := 15    
+	               10 Bit    Registers := 1     
+	                7 Bit    Registers := 2     
+	                5 Bit    Registers := 1     
+	                3 Bit    Registers := 3     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 11    
++---RAMs : 
+	               55 Bit	(5 X 11 bit)          RAMs := 2     
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 32    
+	  32 Input   32 Bit        Muxes := 32    
+	   2 Input   24 Bit        Muxes := 11    
+	   3 Input   24 Bit        Muxes := 1     
+	   2 Input   11 Bit        Muxes := 6     
+	   8 Input   11 Bit        Muxes := 8     
+	   7 Input   11 Bit        Muxes := 3     
+	   5 Input    5 Bit        Muxes := 1     
+	   2 Input    5 Bit        Muxes := 3     
+	   7 Input    5 Bit        Muxes := 2     
+	   3 Input    5 Bit        Muxes := 1     
+	   2 Input    3 Bit        Muxes := 2     
+	   3 Input    3 Bit        Muxes := 2     
+	   7 Input    3 Bit        Muxes := 1     
+	   5 Input    3 Bit        Muxes := 2     
+	   2 Input    2 Bit        Muxes := 1     
+	   3 Input    2 Bit        Muxes := 1     
+	   5 Input    1 Bit        Muxes := 3     
+	   2 Input    1 Bit        Muxes := 16    
+	   8 Input    1 Bit        Muxes := 11    
+	   7 Input    1 Bit        Muxes := 9     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port vid_field_id_in in module videoprocessor_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[2] in module videoprocessor_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[1] in module videoprocessor_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[0] in module videoprocessor_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[2] in module videoprocessor_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[1] in module videoprocessor_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[0] in module videoprocessor_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-3332] Sequential element (FSM_onehot_outputState_reg[2]) is unused and will be removed from module videoprocessor_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (FSM_onehot_outputState_reg[0]) is unused and will be removed from module videoprocessor_v1_0_S00_AXI.
+WARNING: [Synth 8-3332] Sequential element (centroidon_reg[1]) is unused and will be removed from module videoprocessor_v1_0_S00_AXI.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 2757.750 ; gain = 7.902 ; free physical = 54788 ; free virtual = 60439
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping Report (see note below)
++---------------------------------+--------------------------+-----------+----------------------+----------------+
+|Module Name                      | RTL Object               | Inference | Size (Depth x Width) | Primitives     | 
++---------------------------------+--------------------------+-----------+----------------------+----------------+
+|videoprocessor_v1_0_S00_AXI_inst | firstLocalXCentroid_reg  | Implied   | 8 x 11               | RAM16X1S x 11  | 
+|videoprocessor_v1_0_S00_AXI_inst | secondLocalXCentroid_reg | Implied   | 8 x 11               | RAM16X1S x 11  | 
++---------------------------------+--------------------------+-----------+----------------------+----------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+No constraint files found.
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2757.750 ; gain = 7.902 ; free physical = 54787 ; free virtual = 60440
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping Report
++---------------------------------+--------------------------+-----------+----------------------+----------------+
+|Module Name                      | RTL Object               | Inference | Size (Depth x Width) | Primitives     | 
++---------------------------------+--------------------------+-----------+----------------------+----------------+
+|videoprocessor_v1_0_S00_AXI_inst | firstLocalXCentroid_reg  | Implied   | 8 x 11               | RAM16X1S x 11  | 
+|videoprocessor_v1_0_S00_AXI_inst | secondLocalXCentroid_reg | Implied   | 8 x 11               | RAM16X1S x 11  | 
++---------------------------------+--------------------------+-----------+----------------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 2757.750 ; gain = 7.902 ; free physical = 54786 ; free virtual = 60438
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 2757.750 ; gain = 7.902 ; free physical = 54786 ; free virtual = 60439
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 2757.750 ; gain = 7.902 ; free physical = 54786 ; free virtual = 60439
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 2757.750 ; gain = 7.902 ; free physical = 54788 ; free virtual = 60441
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 2757.750 ; gain = 7.902 ; free physical = 54788 ; free virtual = 60441
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 2757.750 ; gain = 7.902 ; free physical = 54788 ; free virtual = 60441
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 2757.750 ; gain = 7.902 ; free physical = 54788 ; free virtual = 60441
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |BUFG     |     3|
+|2     |CARRY4   |    34|
+|3     |LUT1     |     4|
+|4     |LUT2     |   147|
+|5     |LUT3     |    55|
+|6     |LUT4     |   104|
+|7     |LUT5     |    90|
+|8     |LUT6     |   553|
+|9     |MUXF7    |   128|
+|10    |RAM16X1S |    22|
+|11    |FDCE     |    10|
+|12    |FDRE     |  1264|
+|13    |FDSE     |     8|
+|14    |LDC      |     3|
+|15    |IBUF     |    87|
+|16    |OBUF     |    69|
++------+---------+------+
+
+Report Instance Areas: 
++------+-----------------------------------+----------------------------+------+
+|      |Instance                           |Module                      |Cells |
++------+-----------------------------------+----------------------------+------+
+|1     |top                                |                            |  2581|
+|2     |  videoprocessor_v1_0_S00_AXI_inst |videoprocessor_v1_0_S00_AXI |  2412|
++------+-----------------------------------+----------------------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 2757.750 ; gain = 7.902 ; free physical = 54788 ; free virtual = 60441
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 22 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 2757.750 ; gain = 7.902 ; free physical = 54789 ; free virtual = 60442
+Synthesis Optimization Complete : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 2757.758 ; gain = 7.902 ; free physical = 54789 ; free virtual = 60442
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2757.758 ; gain = 0.000 ; free physical = 54875 ; free virtual = 60527
+INFO: [Netlist 29-17] Analyzing 187 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+WARNING: [Netlist 29-101] Netlist 'videoprocessor_v1_0' is not ideal for floorplanning, since the cellview 'videoprocessor_v1_0_S00_AXI' contains a large number of primitives.  Please consider enabling hierarchy in synthesis if you want to do floorplanning.
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2813.777 ; gain = 0.000 ; free physical = 54781 ; free virtual = 60446
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 25 instances were transformed.
+  LDC => LDCE: 3 instances
+  RAM16X1S => RAM32X1S (RAMS32): 22 instances
+
+Synth Design complete, checksum: a3e05cdb
+INFO: [Common 17-83] Releasing license: Synthesis
+26 Infos, 23 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:14 ; elapsed = 00:00:11 . Memory (MB): peak = 2813.777 ; gain = 64.031 ; free physical = 54985 ; free virtual = 60651
+INFO: [Common 17-1381] The checkpoint '/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/ip_repo/edit_videoprocessor_v1_0.runs/synth_1/videoprocessor_v1_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file videoprocessor_v1_0_utilization_synth.rpt -pb videoprocessor_v1_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Apr 16 00:49:07 2022...

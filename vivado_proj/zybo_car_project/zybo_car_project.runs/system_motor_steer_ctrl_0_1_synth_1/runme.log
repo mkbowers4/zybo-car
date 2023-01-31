@@ -1,0 +1,279 @@
+
+*** Running vivado
+    with args -log system_motor_steer_ctrl_0_1.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source system_motor_steer_ctrl_0_1.tcl
+
+
+****** Vivado v2021.2 (64-bit)
+  **** SW Build 3367213 on Tue Oct 19 02:47:39 MDT 2021
+  **** IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+    ** Copyright 1986-2021 Xilinx, Inc. All Rights Reserved.
+
+source system_motor_steer_ctrl_0_1.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/ip_repo/motor_steer_ctrl_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/ip_repo/videoprocessor_2.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/ip_repo/videoprocessor_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/ip_repo/colortester_1.0'.
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.ipdefs/repo_0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/xilinx/Vivado/2021.2/data/ip'.
+Command: synth_design -top system_motor_steer_ctrl_0_1 -part xc7z020clg400-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 1805747
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2748.844 ; gain = 0.000 ; free physical = 29712 ; free virtual = 43399
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'system_motor_steer_ctrl_0_1' [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ip/system_motor_steer_ctrl_0_1/synth/system_motor_steer_ctrl_0_1.vhd:84]
+	Parameter C_S00_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S00_AXI_ADDR_WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-3491] module 'motor_steer_ctrl_v1_0' declared at '/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/6d47/hdl/motor_steer_ctrl_v1_0.vhd:5' bound to instance 'U0' of component 'motor_steer_ctrl_v1_0' [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ip/system_motor_steer_ctrl_0_1/synth/system_motor_steer_ctrl_0_1.vhd:150]
+INFO: [Synth 8-638] synthesizing module 'motor_steer_ctrl_v1_0' [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/6d47/hdl/motor_steer_ctrl_v1_0.vhd:50]
+	Parameter C_S_AXI_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_ADDR_WIDTH bound to: 5 - type: integer 
+INFO: [Synth 8-3491] module 'motor_steer_ctrl_v1_0_S00_AXI' declared at '/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/6d47/hdl/motor_steer_ctrl_v1_0_S00_AXI.vhd:5' bound to instance 'motor_steer_ctrl_v1_0_S00_AXI_inst' of component 'motor_steer_ctrl_v1_0_S00_AXI' [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/6d47/hdl/motor_steer_ctrl_v1_0.vhd:87]
+INFO: [Synth 8-638] synthesizing module 'motor_steer_ctrl_v1_0_S00_AXI' [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/6d47/hdl/motor_steer_ctrl_v1_0_S00_AXI.vhd:93]
+INFO: [Synth 8-226] default block is never used [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/6d47/hdl/motor_steer_ctrl_v1_0_S00_AXI.vhd:249]
+INFO: [Synth 8-226] default block is never used [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/6d47/hdl/motor_steer_ctrl_v1_0_S00_AXI.vhd:415]
+INFO: [Synth 8-3491] module 'motorsteerctrl' declared at '/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/6d47/src/motorsteerctrl.vhd:34' bound to instance 'themap' of component 'motorsteerctrl' [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/6d47/hdl/motor_steer_ctrl_v1_0_S00_AXI.vhd:457]
+INFO: [Synth 8-638] synthesizing module 'motorsteerctrl' [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/6d47/src/motorsteerctrl.vhd:40]
+INFO: [Synth 8-3491] module 'steer_controller' declared at '/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/6d47/src/steer_controller.vhd:34' bound to instance 'steer' of component 'steer_controller' [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/6d47/src/motorsteerctrl.vhd:54]
+INFO: [Synth 8-638] synthesizing module 'steer_controller' [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/6d47/src/steer_controller.vhd:40]
+INFO: [Synth 8-3491] module 'steer_ctrl' declared at '/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/6d47/src/steer_ctrl.vhd:35' bound to instance 'steer' of component 'steer_ctrl' [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/6d47/src/steer_controller.vhd:53]
+INFO: [Synth 8-638] synthesizing module 'steer_ctrl' [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/6d47/src/steer_ctrl.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'steer_ctrl' (1#1) [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/6d47/src/steer_ctrl.vhd:41]
+INFO: [Synth 8-3491] module 'clkdiv' declared at '/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/6d47/src/clkdiv.vhd:34' bound to instance 'div' of component 'clkdiv' [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/6d47/src/steer_controller.vhd:54]
+INFO: [Synth 8-638] synthesizing module 'clkdiv' [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/6d47/src/clkdiv.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'clkdiv' (2#1) [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/6d47/src/clkdiv.vhd:39]
+INFO: [Synth 8-256] done synthesizing module 'steer_controller' (3#1) [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/6d47/src/steer_controller.vhd:40]
+INFO: [Synth 8-3491] module 'motor_ctrl' declared at '/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/6d47/src/motor_ctrl.vhd:34' bound to instance 'motor' of component 'motor_ctrl' [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/6d47/src/motorsteerctrl.vhd:55]
+INFO: [Synth 8-638] synthesizing module 'motor_ctrl' [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/6d47/src/motor_ctrl.vhd:40]
+INFO: [Synth 8-3491] module 'clkdiv' declared at '/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/6d47/src/clkdiv.vhd:34' bound to instance 'div' of component 'clkdiv' [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/6d47/src/motor_ctrl.vhd:52]
+INFO: [Synth 8-3491] module 'motor_pwm' declared at '/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/6d47/src/motor_pwm.vhd:35' bound to instance 'motor_p' of component 'motor_pwm' [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/6d47/src/motor_ctrl.vhd:53]
+INFO: [Synth 8-638] synthesizing module 'motor_pwm' [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/6d47/src/motor_pwm.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'motor_pwm' (4#1) [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/6d47/src/motor_pwm.vhd:41]
+INFO: [Synth 8-256] done synthesizing module 'motor_ctrl' (5#1) [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/6d47/src/motor_ctrl.vhd:40]
+INFO: [Synth 8-256] done synthesizing module 'motorsteerctrl' (6#1) [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/6d47/src/motorsteerctrl.vhd:40]
+WARNING: [Synth 8-6014] Unused sequential element loc_addr_reg was removed.  [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/6d47/hdl/motor_steer_ctrl_v1_0_S00_AXI.vhd:247]
+INFO: [Synth 8-256] done synthesizing module 'motor_steer_ctrl_v1_0_S00_AXI' (7#1) [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/6d47/hdl/motor_steer_ctrl_v1_0_S00_AXI.vhd:93]
+INFO: [Synth 8-256] done synthesizing module 'motor_steer_ctrl_v1_0' (8#1) [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/6d47/hdl/motor_steer_ctrl_v1_0.vhd:50]
+INFO: [Synth 8-256] done synthesizing module 'system_motor_steer_ctrl_0_1' (9#1) [/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ip/system_motor_steer_ctrl_0_1/synth/system_motor_steer_ctrl_0_1.vhd:84]
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[2] in module motor_steer_ctrl_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[1] in module motor_steer_ctrl_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[0] in module motor_steer_ctrl_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[2] in module motor_steer_ctrl_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[1] in module motor_steer_ctrl_v1_0_S00_AXI is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[0] in module motor_steer_ctrl_v1_0_S00_AXI is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2748.844 ; gain = 0.000 ; free physical = 29760 ; free virtual = 43449
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2748.844 ; gain = 0.000 ; free physical = 29797 ; free virtual = 43486
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2748.844 ; gain = 0.000 ; free physical = 29797 ; free virtual = 43486
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2748.844 ; gain = 0.000 ; free physical = 29789 ; free virtual = 43478
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2812.773 ; gain = 0.000 ; free physical = 30583 ; free virtual = 44271
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.02 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2812.773 ; gain = 0.000 ; free physical = 30600 ; free virtual = 44289
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2812.773 ; gain = 63.930 ; free physical = 30718 ; free virtual = 44407
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2812.773 ; gain = 63.930 ; free physical = 30718 ; free virtual = 44407
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2812.773 ; gain = 63.930 ; free physical = 30717 ; free virtual = 44406
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2812.773 ; gain = 63.930 ; free physical = 30711 ; free virtual = 44401
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input   13 Bit       Adders := 1     
+	   2 Input   12 Bit       Adders := 1     
+	   2 Input    8 Bit       Adders := 2     
+	   2 Input    7 Bit       Adders := 2     
++---Registers : 
+	               32 Bit    Registers := 9     
+	                8 Bit    Registers := 1     
+	                7 Bit    Registers := 2     
+	                5 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 10    
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 8     
+	   8 Input   32 Bit        Muxes := 8     
+	   2 Input   12 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 2     
+	   2 Input    7 Bit        Muxes := 2     
+	   2 Input    1 Bit        Muxes := 5     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port s00_axi_awprot[2] in module system_motor_steer_ctrl_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_awprot[1] in module system_motor_steer_ctrl_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_awprot[0] in module system_motor_steer_ctrl_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_arprot[2] in module system_motor_steer_ctrl_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_arprot[1] in module system_motor_steer_ctrl_0_1 is either unconnected or has no load
+WARNING: [Synth 8-7129] Port s00_axi_arprot[0] in module system_motor_steer_ctrl_0_1 is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 2812.773 ; gain = 63.930 ; free physical = 30659 ; free virtual = 44357
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 2812.773 ; gain = 63.930 ; free physical = 30264 ; free virtual = 43963
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 2812.773 ; gain = 63.930 ; free physical = 30264 ; free virtual = 43962
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:11 ; elapsed = 00:00:12 . Memory (MB): peak = 2812.773 ; gain = 63.930 ; free physical = 30262 ; free virtual = 43960
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 2812.773 ; gain = 63.930 ; free physical = 30248 ; free virtual = 43946
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 2812.773 ; gain = 63.930 ; free physical = 30248 ; free virtual = 43946
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 2812.773 ; gain = 63.930 ; free physical = 30248 ; free virtual = 43947
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 2812.773 ; gain = 63.930 ; free physical = 30248 ; free virtual = 43946
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 2812.773 ; gain = 63.930 ; free physical = 30248 ; free virtual = 43946
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 2812.773 ; gain = 63.930 ; free physical = 30248 ; free virtual = 43946
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |CARRY4 |    11|
+|2     |LUT1   |     5|
+|3     |LUT2   |     9|
+|4     |LUT3   |    10|
+|5     |LUT4   |    24|
+|6     |LUT5   |    49|
+|7     |LUT6   |    85|
+|8     |MUXF7  |    32|
+|9     |FDCE   |    38|
+|10    |FDRE   |   296|
+|11    |FDSE   |     4|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 2812.773 ; gain = 63.930 ; free physical = 30248 ; free virtual = 43946
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 7 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 2812.773 ; gain = 0.000 ; free physical = 30301 ; free virtual = 44000
+Synthesis Optimization Complete : Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 2812.773 ; gain = 63.930 ; free physical = 30301 ; free virtual = 44000
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2812.773 ; gain = 0.000 ; free physical = 30390 ; free virtual = 44088
+INFO: [Netlist 29-17] Analyzing 43 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2812.773 ; gain = 0.000 ; free physical = 30425 ; free virtual = 44124
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: 64d7dc8c
+INFO: [Common 17-83] Releasing license: Synthesis
+50 Infos, 14 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:20 ; elapsed = 00:00:17 . Memory (MB): peak = 2812.773 ; gain = 64.031 ; free physical = 30613 ; free virtual = 44312
+INFO: [Common 17-1381] The checkpoint '/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.runs/system_motor_steer_ctrl_0_1_synth_1/system_motor_steer_ctrl_0_1.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP system_motor_steer_ctrl_0_1, cache-ID = d35751fb5b0c8870
+INFO: [Coretcl 2-1174] Renamed 9 cell refs.
+INFO: [Common 17-1381] The checkpoint '/home/mike/Desktop/ProjectVersions/projectsave0/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.runs/system_motor_steer_ctrl_0_1_synth_1/system_motor_steer_ctrl_0_1.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file system_motor_steer_ctrl_0_1_utilization_synth.rpt -pb system_motor_steer_ctrl_0_1_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Apr 18 17:34:46 2022...

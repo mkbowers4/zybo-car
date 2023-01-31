@@ -1,0 +1,532 @@
+#-----------------------------------------------------------
+# Vivado v2021.2 (64-bit)
+# SW Build 3367213 on Tue Oct 19 02:47:39 MDT 2021
+# IP Build 3369179 on Thu Oct 21 08:25:16 MDT 2021
+# Start of session at: Thu Apr  7 17:24:25 2022
+# Process ID: 2369844
+# Current directory: /home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.runs/system_MIPI_D_PHY_RX_0_0_synth_1
+# Command line: vivado -log system_MIPI_D_PHY_RX_0_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source system_MIPI_D_PHY_RX_0_0.tcl
+# Log file: /home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.runs/system_MIPI_D_PHY_RX_0_0_synth_1/system_MIPI_D_PHY_RX_0_0.vds
+# Journal file: /home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.runs/system_MIPI_D_PHY_RX_0_0_synth_1/vivado.jou
+# Running On: pioneer, OS: Linux, CPU Frequency: 3400.000 MHz, CPU Physical cores: 32, Host memory: 67340 MB
+#-----------------------------------------------------------
+source system_MIPI_D_PHY_RX_0_0.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.ipdefs/repo_0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/xilinx/Vivado/2021.2/data/ip'.
+Command: synth_design -top system_MIPI_D_PHY_RX_0_0 -part xc7z020clg400-1 -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 4 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 2369890
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 2747.879 ; gain = 0.000 ; free physical = 37627 ; free virtual = 48704
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-1565] actual for formal port areset is neither a static name nor a globally static expression [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/ead7/hdl/HS_Deserializer.vhd:266]
+INFO: [Synth 8-638] synthesizing module 'system_MIPI_D_PHY_RX_0_0' [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ip/system_MIPI_D_PHY_RX_0_0/synth/system_MIPI_D_PHY_RX_0_0.vhd:138]
+	Parameter C_S_AXI_LITE_DATA_WIDTH bound to: 32 - type: integer 
+	Parameter C_S_AXI_LITE_ADDR_WIDTH bound to: 4 - type: integer 
+	Parameter kVersionMajor bound to: 1 - type: integer 
+	Parameter kVersionMinor bound to: 3 - type: integer 
+	Parameter kNoOfDataLanes bound to: 2 - type: integer 
+	Parameter kGenerateMMCM bound to: 0 - type: bool 
+	Parameter kGenerateAXIL bound to: 1 - type: bool 
+	Parameter kAddDelayClk_ps bound to: 0 - type: integer 
+	Parameter kAddDelayData0_ps bound to: 0 - type: integer 
+	Parameter kAddDelayData1_ps bound to: 0 - type: integer 
+	Parameter kRefClkFreqHz bound to: 200000000 - type: integer 
+	Parameter kDebug bound to: 0 - type: bool 
+	Parameter C_S_AXI_LITE_FREQ_HZ bound to: 100000000 - type: integer 
+	Parameter kLPFromLane0 bound to: 0 - type: bool 
+	Parameter kSharedLogic bound to: 1 - type: bool 
+INFO: [Synth 8-3491] module 'MIPI_DPHY_Receiver' declared at '/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/ead7/hdl/MIPI_DPHY_Receiver.vhd:53' bound to instance 'U0' of component 'MIPI_DPHY_Receiver' [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ip/system_MIPI_D_PHY_RX_0_0/synth/system_MIPI_D_PHY_RX_0_0.vhd:322]
+INFO: [Synth 8-638] synthesizing module 'MIPI_DPHY_Receiver' [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/ead7/hdl/MIPI_DPHY_Receiver.vhd:183]
+INFO: [Synth 8-638] synthesizing module 'MIPI_DPHY_Receiver_S_AXI_Lite' [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/ead7/hdl/S_AXI_Lite.vhd:120]
+WARNING: [Synth 8-6014] Unused sequential element loc_addr_reg was removed.  [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/ead7/hdl/S_AXI_Lite.vhd:246]
+INFO: [Synth 8-256] done synthesizing module 'MIPI_DPHY_Receiver_S_AXI_Lite' (1#1) [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/ead7/hdl/S_AXI_Lite.vhd:120]
+INFO: [Synth 8-638] synthesizing module 'ResetBridge' [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/ead7/hdl/SyncAsyncReset.vhd:65]
+INFO: [Synth 8-638] synthesizing module 'SyncAsync' [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/ead7/hdl/SyncAsync.vhd:66]
+INFO: [Synth 8-256] done synthesizing module 'SyncAsync' (2#1) [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/ead7/hdl/SyncAsync.vhd:66]
+INFO: [Synth 8-256] done synthesizing module 'ResetBridge' (3#1) [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/ead7/hdl/SyncAsyncReset.vhd:65]
+INFO: [Synth 8-638] synthesizing module 'SyncAsync__parameterized0' [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/ead7/hdl/SyncAsync.vhd:66]
+INFO: [Synth 8-256] done synthesizing module 'SyncAsync__parameterized0' (3#1) [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/ead7/hdl/SyncAsync.vhd:66]
+INFO: [Synth 8-113] binding component instance 'IDelayCtrlX' to cell 'IDELAYCTRL' [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/ead7/hdl/MIPI_DPHY_Receiver.vhd:412]
+INFO: [Synth 8-638] synthesizing module 'InputBuffer' [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/ead7/hdl/InputBuffer.vhd:67]
+	Parameter DIFF_TERM bound to: 0 - type: bool 
+	Parameter IBUF_LOW_PWR bound to: 0 - type: bool 
+	Parameter IOSTANDARD bound to: LVDS_25 - type: string 
+INFO: [Synth 8-113] binding component instance 'LaneHighSpeed' to cell 'IBUFDS' [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/ead7/hdl/InputBuffer.vhd:71]
+	Parameter IBUF_LOW_PWR bound to: 1 - type: bool 
+	Parameter IOSTANDARD bound to: HSUL_12 - type: string 
+INFO: [Synth 8-113] binding component instance 'LaneLowPower0' to cell 'IBUF' [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/ead7/hdl/InputBuffer.vhd:83]
+	Parameter IBUF_LOW_PWR bound to: 1 - type: bool 
+	Parameter IOSTANDARD bound to: HSUL_12 - type: string 
+INFO: [Synth 8-113] binding component instance 'LaneLowPower1' to cell 'IBUF' [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/ead7/hdl/InputBuffer.vhd:92]
+INFO: [Synth 8-256] done synthesizing module 'InputBuffer' (4#1) [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/ead7/hdl/InputBuffer.vhd:67]
+INFO: [Synth 8-638] synthesizing module 'DPHY_LaneSCNN' [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/ead7/hdl/DPHY_LaneSCNN.vhd:84]
+INFO: [Synth 8-638] synthesizing module 'GlitchFilter' [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/ead7/hdl/GlitchFilter.vhd:62]
+INFO: [Synth 8-256] done synthesizing module 'GlitchFilter' (5#1) [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/ead7/hdl/GlitchFilter.vhd:62]
+INFO: [Synth 8-638] synthesizing module 'HS_Clocking' [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/ead7/hdl/HS_Clocking.vhd:75]
+	Parameter CINVCTRL_SEL bound to: FALSE - type: string 
+	Parameter DELAY_SRC bound to: IDATAIN - type: string 
+	Parameter HIGH_PERFORMANCE_MODE bound to: TRUE - type: string 
+	Parameter IDELAY_TYPE bound to: FIXED - type: string 
+	Parameter IDELAY_VALUE bound to: 0 - type: integer 
+	Parameter PIPE_SEL bound to: FALSE - type: string 
+	Parameter REFCLK_FREQUENCY bound to: 200.000000 - type: double 
+	Parameter SIGNAL_PATTERN bound to: CLOCK - type: string 
+INFO: [Synth 8-113] binding component instance 'InputDelay' to cell 'IDELAYE2' [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/ead7/hdl/HS_Clocking.vhd:117]
+INFO: [Synth 8-113] binding component instance 'SerialClkBuffer' to cell 'BUFIO' [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/ead7/hdl/HS_Clocking.vhd:267]
+	Parameter BUFR_DIVIDE bound to: 4 - type: string 
+	Parameter SIM_DEVICE bound to: 7SERIES - type: string 
+INFO: [Synth 8-113] binding component instance 'DivClkBuffer' to cell 'BUFR' [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/ead7/hdl/HS_Clocking.vhd:273]
+INFO: [Synth 8-256] done synthesizing module 'HS_Clocking' (6#1) [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/ead7/hdl/HS_Clocking.vhd:75]
+INFO: [Synth 8-256] done synthesizing module 'DPHY_LaneSCNN' (7#1) [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/ead7/hdl/DPHY_LaneSCNN.vhd:84]
+INFO: [Synth 8-638] synthesizing module 'InputBuffer__parameterized0' [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/ead7/hdl/InputBuffer.vhd:67]
+	Parameter DIFF_TERM bound to: 0 - type: bool 
+	Parameter IBUF_LOW_PWR bound to: 0 - type: bool 
+	Parameter IOSTANDARD bound to: LVDS_25 - type: string 
+INFO: [Synth 8-113] binding component instance 'LaneHighSpeed' to cell 'IBUFDS' [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/ead7/hdl/InputBuffer.vhd:71]
+	Parameter IBUF_LOW_PWR bound to: 1 - type: bool 
+	Parameter IOSTANDARD bound to: HSUL_12 - type: string 
+INFO: [Synth 8-113] binding component instance 'LaneLowPower0' to cell 'IBUF' [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/ead7/hdl/InputBuffer.vhd:83]
+	Parameter IBUF_LOW_PWR bound to: 1 - type: bool 
+	Parameter IOSTANDARD bound to: HSUL_12 - type: string 
+INFO: [Synth 8-113] binding component instance 'LaneLowPower1' to cell 'IBUF' [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/ead7/hdl/InputBuffer.vhd:92]
+INFO: [Synth 8-256] done synthesizing module 'InputBuffer__parameterized0' (7#1) [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/ead7/hdl/InputBuffer.vhd:67]
+INFO: [Synth 8-638] synthesizing module 'DPHY_LaneSFEN' [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/ead7/hdl/DPHY_LaneSFEN.vhd:114]
+INFO: [Synth 8-638] synthesizing module 'HS_Deserializer' [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/ead7/hdl/HS_Deserializer.vhd:93]
+	Parameter CINVCTRL_SEL bound to: FALSE - type: string 
+	Parameter DELAY_SRC bound to: IDATAIN - type: string 
+	Parameter HIGH_PERFORMANCE_MODE bound to: TRUE - type: string 
+	Parameter IDELAY_TYPE bound to: VARIABLE - type: string 
+	Parameter IDELAY_VALUE bound to: 12 - type: integer 
+	Parameter PIPE_SEL bound to: FALSE - type: string 
+	Parameter REFCLK_FREQUENCY bound to: 200.000000 - type: double 
+	Parameter SIGNAL_PATTERN bound to: DATA - type: string 
+INFO: [Synth 8-113] binding component instance 'InputDelay' to cell 'IDELAYE2' [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/ead7/hdl/HS_Deserializer.vhd:166]
+	Parameter DATA_RATE bound to: DDR - type: string 
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+	Parameter DYN_CLKDIV_INV_EN bound to: FALSE - type: string 
+	Parameter DYN_CLK_INV_EN bound to: FALSE - type: string 
+	Parameter INIT_Q1 bound to: 1'b0 
+	Parameter INIT_Q2 bound to: 1'b0 
+	Parameter INIT_Q3 bound to: 1'b0 
+	Parameter INIT_Q4 bound to: 1'b0 
+	Parameter INTERFACE_TYPE bound to: NETWORKING - type: string 
+	Parameter IOBDELAY bound to: IFD - type: string 
+	Parameter NUM_CE bound to: 1 - type: integer 
+	Parameter OFB_USED bound to: FALSE - type: string 
+	Parameter SERDES_MODE bound to: MASTER - type: string 
+	Parameter SRVAL_Q1 bound to: 1'b0 
+	Parameter SRVAL_Q2 bound to: 1'b0 
+	Parameter SRVAL_Q3 bound to: 1'b0 
+	Parameter SRVAL_Q4 bound to: 1'b0 
+INFO: [Synth 8-113] binding component instance 'Deserializer' to cell 'ISERDESE2' [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/ead7/hdl/HS_Deserializer.vhd:197]
+INFO: [Synth 8-638] synthesizing module 'SyncAsync__parameterized1' [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/ead7/hdl/SyncAsync.vhd:66]
+INFO: [Synth 8-256] done synthesizing module 'SyncAsync__parameterized1' (7#1) [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/ead7/hdl/SyncAsync.vhd:66]
+	Parameter DATA_RATE bound to: DDR - type: string 
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+	Parameter DYN_CLKDIV_INV_EN bound to: FALSE - type: string 
+	Parameter DYN_CLK_INV_EN bound to: FALSE - type: string 
+	Parameter INIT_Q1 bound to: 1'b1 
+	Parameter INIT_Q2 bound to: 1'b1 
+	Parameter INIT_Q3 bound to: 1'b1 
+	Parameter INIT_Q4 bound to: 1'b1 
+	Parameter INTERFACE_TYPE bound to: NETWORKING - type: string 
+	Parameter IOBDELAY bound to: NONE - type: string 
+	Parameter NUM_CE bound to: 1 - type: integer 
+	Parameter OFB_USED bound to: FALSE - type: string 
+	Parameter SERDES_MODE bound to: MASTER - type: string 
+	Parameter SRVAL_Q1 bound to: 1'b1 
+	Parameter SRVAL_Q2 bound to: 1'b1 
+	Parameter SRVAL_Q3 bound to: 1'b1 
+	Parameter SRVAL_Q4 bound to: 1'b1 
+INFO: [Synth 8-113] binding component instance 'LP_DeserializerX' to cell 'ISERDESE2' [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/ead7/hdl/HS_Deserializer.vhd:276]
+	Parameter DATA_RATE bound to: DDR - type: string 
+	Parameter DATA_WIDTH bound to: 8 - type: integer 
+	Parameter DYN_CLKDIV_INV_EN bound to: FALSE - type: string 
+	Parameter DYN_CLK_INV_EN bound to: FALSE - type: string 
+	Parameter INIT_Q1 bound to: 1'b1 
+	Parameter INIT_Q2 bound to: 1'b1 
+	Parameter INIT_Q3 bound to: 1'b1 
+	Parameter INIT_Q4 bound to: 1'b1 
+	Parameter INTERFACE_TYPE bound to: NETWORKING - type: string 
+	Parameter IOBDELAY bound to: NONE - type: string 
+	Parameter NUM_CE bound to: 1 - type: integer 
+	Parameter OFB_USED bound to: FALSE - type: string 
+	Parameter SERDES_MODE bound to: MASTER - type: string 
+	Parameter SRVAL_Q1 bound to: 1'b1 
+	Parameter SRVAL_Q2 bound to: 1'b1 
+	Parameter SRVAL_Q3 bound to: 1'b1 
+	Parameter SRVAL_Q4 bound to: 1'b1 
+INFO: [Synth 8-113] binding component instance 'LP_DeserializerX' to cell 'ISERDESE2' [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/ead7/hdl/HS_Deserializer.vhd:276]
+WARNING: [Synth 8-6014] Unused sequential element hard_reg was removed.  [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/ead7/hdl/HS_Deserializer.vhd:413]
+WARNING: [Synth 8-6014] Unused sequential element soft_reg was removed.  [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/ead7/hdl/HS_Deserializer.vhd:413]
+WARNING: [Synth 8-3848] Net dDataOut9 in module/entity HS_Deserializer does not have driver. [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/ead7/hdl/HS_Deserializer.vhd:74]
+INFO: [Synth 8-256] done synthesizing module 'HS_Deserializer' (8#1) [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/ead7/hdl/HS_Deserializer.vhd:93]
+WARNING: [Synth 8-3848] Net aErrEsc in module/entity DPHY_LaneSFEN does not have driver. [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/ead7/hdl/DPHY_LaneSFEN.vhd:95]
+WARNING: [Synth 8-3848] Net aErrControl in module/entity DPHY_LaneSFEN does not have driver. [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/ead7/hdl/DPHY_LaneSFEN.vhd:96]
+INFO: [Synth 8-256] done synthesizing module 'DPHY_LaneSFEN' (9#1) [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/ead7/hdl/DPHY_LaneSFEN.vhd:114]
+WARNING: [Synth 8-3848] Net aClkErrControl in module/entity MIPI_DPHY_Receiver does not have driver. [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/ead7/hdl/MIPI_DPHY_Receiver.vhd:100]
+WARNING: [Synth 8-3848] Net SFEN_Lanes[0][aUlpsActiveNot] in module/entity MIPI_DPHY_Receiver does not have driver. [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/ead7/hdl/MIPI_DPHY_Receiver.vhd:255]
+WARNING: [Synth 8-3848] Net SFEN_Lanes[0][RxClkEsc] in module/entity MIPI_DPHY_Receiver does not have driver. [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/ead7/hdl/MIPI_DPHY_Receiver.vhd:255]
+WARNING: [Synth 8-3848] Net SFEN_Lanes[0][aRxDataEsc] in module/entity MIPI_DPHY_Receiver does not have driver. [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/ead7/hdl/MIPI_DPHY_Receiver.vhd:255]
+WARNING: [Synth 8-3848] Net SFEN_Lanes[0][aRxValidEsc] in module/entity MIPI_DPHY_Receiver does not have driver. [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/ead7/hdl/MIPI_DPHY_Receiver.vhd:255]
+WARNING: [Synth 8-3848] Net SFEN_Lanes[0][aRxLpdtEsc] in module/entity MIPI_DPHY_Receiver does not have driver. [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/ead7/hdl/MIPI_DPHY_Receiver.vhd:255]
+WARNING: [Synth 8-3848] Net SFEN_Lanes[0][aRxUlpsEsc] in module/entity MIPI_DPHY_Receiver does not have driver. [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/ead7/hdl/MIPI_DPHY_Receiver.vhd:255]
+WARNING: [Synth 8-3848] Net SFEN_Lanes[0][aRxTriggerEsc] in module/entity MIPI_DPHY_Receiver does not have driver. [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/ead7/hdl/MIPI_DPHY_Receiver.vhd:255]
+WARNING: [Synth 8-3848] Net SFEN_Lanes[1][aUlpsActiveNot] in module/entity MIPI_DPHY_Receiver does not have driver. [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/ead7/hdl/MIPI_DPHY_Receiver.vhd:255]
+WARNING: [Synth 8-3848] Net SFEN_Lanes[1][RxClkEsc] in module/entity MIPI_DPHY_Receiver does not have driver. [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/ead7/hdl/MIPI_DPHY_Receiver.vhd:255]
+WARNING: [Synth 8-3848] Net SFEN_Lanes[1][aRxDataEsc] in module/entity MIPI_DPHY_Receiver does not have driver. [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/ead7/hdl/MIPI_DPHY_Receiver.vhd:255]
+WARNING: [Synth 8-3848] Net SFEN_Lanes[1][aRxValidEsc] in module/entity MIPI_DPHY_Receiver does not have driver. [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/ead7/hdl/MIPI_DPHY_Receiver.vhd:255]
+WARNING: [Synth 8-3848] Net SFEN_Lanes[1][aRxLpdtEsc] in module/entity MIPI_DPHY_Receiver does not have driver. [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/ead7/hdl/MIPI_DPHY_Receiver.vhd:255]
+WARNING: [Synth 8-3848] Net SFEN_Lanes[1][aRxUlpsEsc] in module/entity MIPI_DPHY_Receiver does not have driver. [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/ead7/hdl/MIPI_DPHY_Receiver.vhd:255]
+WARNING: [Synth 8-3848] Net SFEN_Lanes[1][aRxTriggerEsc] in module/entity MIPI_DPHY_Receiver does not have driver. [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/ead7/hdl/MIPI_DPHY_Receiver.vhd:255]
+WARNING: [Synth 8-3848] Net dLP0_in[0] in module/entity MIPI_DPHY_Receiver does not have driver. [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/ead7/hdl/MIPI_DPHY_Receiver.vhd:209]
+WARNING: [Synth 8-3848] Net dLP1_in[0] in module/entity MIPI_DPHY_Receiver does not have driver. [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/ead7/hdl/MIPI_DPHY_Receiver.vhd:209]
+WARNING: [Synth 8-3848] Net cLP_in[0] in module/entity MIPI_DPHY_Receiver does not have driver. [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/ead7/hdl/MIPI_DPHY_Receiver.vhd:214]
+WARNING: [Synth 8-3848] Net dLP0_in[1] in module/entity MIPI_DPHY_Receiver does not have driver. [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/ead7/hdl/MIPI_DPHY_Receiver.vhd:209]
+WARNING: [Synth 8-3848] Net dLP1_in[1] in module/entity MIPI_DPHY_Receiver does not have driver. [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/ead7/hdl/MIPI_DPHY_Receiver.vhd:209]
+WARNING: [Synth 8-3848] Net cLP_in[1] in module/entity MIPI_DPHY_Receiver does not have driver. [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/ead7/hdl/MIPI_DPHY_Receiver.vhd:214]
+INFO: [Synth 8-256] done synthesizing module 'MIPI_DPHY_Receiver' (10#1) [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ipshared/ead7/hdl/MIPI_DPHY_Receiver.vhd:183]
+INFO: [Synth 8-256] done synthesizing module 'system_MIPI_D_PHY_RX_0_0' (11#1) [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ip/system_MIPI_D_PHY_RX_0_0/synth/system_MIPI_D_PHY_RX_0_0.vhd:138]
+WARNING: [Synth 8-7129] Port dDataOut9[8] in module HS_Deserializer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dDataOut9[7] in module HS_Deserializer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dDataOut9[6] in module HS_Deserializer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dDataOut9[5] in module HS_Deserializer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dDataOut9[4] in module HS_Deserializer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dDataOut9[3] in module HS_Deserializer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dDataOut9[2] in module HS_Deserializer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dDataOut9[1] in module HS_Deserializer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dDataOut9[0] in module HS_Deserializer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dLP0_in[7] in module HS_Deserializer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dLP0_in[6] in module HS_Deserializer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dLP0_in[5] in module HS_Deserializer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dLP0_in[4] in module HS_Deserializer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dLP0_in[3] in module HS_Deserializer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dLP0_in[2] in module HS_Deserializer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dLP0_in[1] in module HS_Deserializer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dLP0_in[0] in module HS_Deserializer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dLP1_in[7] in module HS_Deserializer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dLP1_in[6] in module HS_Deserializer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dLP1_in[5] in module HS_Deserializer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dLP1_in[4] in module HS_Deserializer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dLP1_in[3] in module HS_Deserializer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dLP1_in[2] in module HS_Deserializer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dLP1_in[1] in module HS_Deserializer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port dLP1_in[0] in module HS_Deserializer is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aErrEsc in module DPHY_LaneSFEN is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aErrControl in module DPHY_LaneSFEN is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cLP_in[1] in module DPHY_LaneSFEN is either unconnected or has no load
+WARNING: [Synth 8-7129] Port cLP_in[0] in module DPHY_LaneSFEN is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aForceRxmode in module DPHY_LaneSCNN is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[2] in module MIPI_DPHY_Receiver_S_AXI_Lite is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[1] in module MIPI_DPHY_Receiver_S_AXI_Lite is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_AWPROT[0] in module MIPI_DPHY_Receiver_S_AXI_Lite is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[2] in module MIPI_DPHY_Receiver_S_AXI_Lite is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[1] in module MIPI_DPHY_Receiver_S_AXI_Lite is either unconnected or has no load
+WARNING: [Synth 8-7129] Port S_AXI_ARPROT[0] in module MIPI_DPHY_Receiver_S_AXI_Lite is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aClkErrControl in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD0UlpsActiveNot in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port D0RxClkEsc in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD0RxDataEsc[7] in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD0RxDataEsc[6] in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD0RxDataEsc[5] in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD0RxDataEsc[4] in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD0RxDataEsc[3] in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD0RxDataEsc[2] in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD0RxDataEsc[1] in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD0RxDataEsc[0] in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD0RxValidEsc in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD0RxLpdtEsc in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD0RxUlpsEsc in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD0RxTriggerEsc[3] in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD0RxTriggerEsc[2] in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD0RxTriggerEsc[1] in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD0RxTriggerEsc[0] in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD1UlpsActiveNot in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port D1RxClkEsc in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD1RxDataEsc[7] in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD1RxDataEsc[6] in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD1RxDataEsc[5] in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD1RxDataEsc[4] in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD1RxDataEsc[3] in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD1RxDataEsc[2] in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD1RxDataEsc[1] in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD1RxDataEsc[0] in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD1RxValidEsc in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD1RxLpdtEsc in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD1RxUlpsEsc in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD1RxTriggerEsc[3] in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD1RxTriggerEsc[2] in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD1RxTriggerEsc[1] in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD1RxTriggerEsc[0] in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port rDlyCtrlLockedIn in module MIPI_DPHY_Receiver is either unconnected or has no load
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2802.777 ; gain = 54.898 ; free physical = 37551 ; free virtual = 48629
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2802.777 ; gain = 54.898 ; free physical = 37509 ; free virtual = 48587
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2802.777 ; gain = 54.898 ; free physical = 37509 ; free virtual = 48587
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2802.777 ; gain = 0.000 ; free physical = 37497 ; free virtual = 48575
+INFO: [Netlist 29-17] Analyzing 13 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ip/system_MIPI_D_PHY_RX_0_0/hdl/MIPI_DPHY_Receiver_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ip/system_MIPI_D_PHY_RX_0_0/hdl/MIPI_DPHY_Receiver_ooc.xdc] for cell 'U0'
+CRITICAL WARNING: [Designutils 20-1280] Could not find module 'ila_scnn_refclk'. The XDC file /home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ip/system_MIPI_D_PHY_RX_0_0/hdl/ila_scnn_refclk/ila_v6_2/constraints/ila.xdc will not be read for any cell of this module.
+CRITICAL WARNING: [Designutils 20-1280] Could not find module 'ila_sfen_refclk'. The XDC file /home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ip/system_MIPI_D_PHY_RX_0_0/hdl/ila_sfen_refclk/ila_v6_2/constraints/ila.xdc will not be read for any cell of this module.
+CRITICAL WARNING: [Designutils 20-1280] Could not find module 'ila_sfen_rxclk'. The XDC file /home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ip/system_MIPI_D_PHY_RX_0_0/hdl/ila_sfen_rxclk/ila_v6_2/constraints/ila.xdc will not be read for any cell of this module.
+Parsing XDC File [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ip/system_MIPI_D_PHY_RX_0_0/hdl/MIPI_DPHY_Receiver.xdc] for cell 'U0'
+Finished Parsing XDC File [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ip/system_MIPI_D_PHY_RX_0_0/hdl/MIPI_DPHY_Receiver.xdc] for cell 'U0'
+Parsing XDC File [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.runs/system_MIPI_D_PHY_RX_0_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.runs/system_MIPI_D_PHY_RX_0_0_synth_1/dont_touch.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.runs/system_MIPI_D_PHY_RX_0_0_synth_1/dont_touch.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/system_MIPI_D_PHY_RX_0_0_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/system_MIPI_D_PHY_RX_0_0_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+INFO: [Timing 38-2] Deriving generated clocks
+Parsing XDC File [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ip/system_MIPI_D_PHY_RX_0_0/hdl/MIPI_DPHY_Receiver_clocks.xdc] for cell 'U0'
+Finished Parsing XDC File [/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.gen/sources_1/bd/system/ip/system_MIPI_D_PHY_RX_0_0/hdl/MIPI_DPHY_Receiver_clocks.xdc] for cell 'U0'
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2893.621 ; gain = 0.000 ; free physical = 37716 ; free virtual = 48795
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2893.621 ; gain = 0.000 ; free physical = 37715 ; free virtual = 48794
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 2893.621 ; gain = 145.742 ; free physical = 37745 ; free virtual = 48824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 2893.621 ; gain = 145.742 ; free physical = 37745 ; free virtual = 48824
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for U0. (constraint file  /home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.runs/system_MIPI_D_PHY_RX_0_0_synth_1/dont_touch.xdc, line 23).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 2893.621 ; gain = 145.742 ; free physical = 37740 ; free virtual = 48819
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'DPHY_LaneSCNN'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'DPHY_LaneSFEN'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  stinit |                        000000001 |                             0000
+                  ststop |                        000000010 |                             0001
+               sths_prpr |                        000000100 |                             0010
+               sths_term |                        000001000 |                             0011
+                sths_clk |                        000010000 |                             0100
+                sths_end |                        000100000 |                             0101
+             stulps_rqst |                        001000000 |                             1000
+                  stulps |                        010000000 |                             0110
+             stulps_exit |                        100000000 |                             0111
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'DPHY_LaneSCNN'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+         stinitcountdown |                              101 |                              000
+           stwaitforstop |                              100 |                              001
+                  ststop |                              001 |                              010
+               sths_rqst |                              011 |                              011
+             sths_settle |                              010 |                              100
+                sths_rcv |                              000 |                              101
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'DPHY_LaneSFEN'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 2893.621 ; gain = 145.742 ; free physical = 37699 ; free virtual = 48779
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-7129] Port aClkErrControl in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD0UlpsActiveNot in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port D0RxClkEsc in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD0RxDataEsc[7] in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD0RxDataEsc[6] in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD0RxDataEsc[5] in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD0RxDataEsc[4] in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD0RxDataEsc[3] in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD0RxDataEsc[2] in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD0RxDataEsc[1] in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD0RxDataEsc[0] in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD0RxValidEsc in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD0RxLpdtEsc in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD0RxUlpsEsc in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD0RxTriggerEsc[3] in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD0RxTriggerEsc[2] in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD0RxTriggerEsc[1] in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD0RxTriggerEsc[0] in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD0ErrEsc in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD0ErrControl in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD1UlpsActiveNot in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port D1RxClkEsc in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD1RxDataEsc[7] in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD1RxDataEsc[6] in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD1RxDataEsc[5] in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD1RxDataEsc[4] in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD1RxDataEsc[3] in module MIPI_DPHY_Receiver is either unconnected or has no load
+WARNING: [Synth 8-7129] Port aD1RxDataEsc[2] in module MIPI_DPHY_Receiver is either unconnected or has no load
+INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 2893.621 ; gain = 145.742 ; free physical = 37720 ; free virtual = 48811
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 2893.621 ; gain = 145.742 ; free physical = 37549 ; free virtual = 48640
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 2893.621 ; gain = 145.742 ; free physical = 37547 ; free virtual = 48638
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:15 ; elapsed = 00:00:16 . Memory (MB): peak = 2893.621 ; gain = 145.742 ; free physical = 37539 ; free virtual = 48631
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 2893.621 ; gain = 145.742 ; free physical = 37450 ; free virtual = 48541
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 2893.621 ; gain = 145.742 ; free physical = 37450 ; free virtual = 48541
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 2893.621 ; gain = 145.742 ; free physical = 37450 ; free virtual = 48541
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 2893.621 ; gain = 145.742 ; free physical = 37450 ; free virtual = 48541
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 2893.621 ; gain = 145.742 ; free physical = 37450 ; free virtual = 48541
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 2893.621 ; gain = 145.742 ; free physical = 37449 ; free virtual = 48541
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----------+------+
+|      |Cell       |Count |
++------+-----------+------+
+|1     |BUFIO      |     1|
+|2     |BUFR       |     1|
+|3     |CARRY4     |    12|
+|4     |IDELAYCTRL |     1|
+|5     |IDELAYE2   |     3|
+|7     |ISERDESE2  |     6|
+|9     |LUT1       |    14|
+|10    |LUT2       |    46|
+|11    |LUT3       |    92|
+|12    |LUT4       |    62|
+|13    |LUT5       |    53|
+|14    |LUT6       |    99|
+|15    |FDCE       |    16|
+|16    |FDPE       |    18|
+|17    |FDRE       |   286|
+|18    |FDSE       |     9|
+|19    |IBUF       |     6|
+|20    |IBUFDS     |     3|
++------+-----------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 2893.621 ; gain = 145.742 ; free physical = 37449 ; free virtual = 48541
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 48 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 2893.621 ; gain = 54.898 ; free physical = 37506 ; free virtual = 48597
+Synthesis Optimization Complete : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 2893.621 ; gain = 145.742 ; free physical = 37506 ; free virtual = 48597
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2893.621 ; gain = 0.000 ; free physical = 37596 ; free virtual = 48687
+INFO: [Netlist 29-17] Analyzing 25 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 6 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2893.621 ; gain = 0.000 ; free physical = 37533 ; free virtual = 48624
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete, checksum: b6193fd2
+INFO: [Common 17-83] Releasing license: Synthesis
+69 Infos, 129 Warnings, 3 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:22 ; elapsed = 00:00:21 . Memory (MB): peak = 2893.621 ; gain = 145.844 ; free physical = 37732 ; free virtual = 48823
+INFO: [Common 17-1381] The checkpoint '/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.runs/system_MIPI_D_PHY_RX_0_0_synth_1/system_MIPI_D_PHY_RX_0_0.dcp' has been generated.
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+INFO: [Coretcl 2-1174] Renamed 47 cell refs.
+INFO: [Common 17-1381] The checkpoint '/home/mike/Desktop/projectcopy2/Zybo-Z7-20-pcam-5c-2019.1/vivado_proj/Zybo-Z7-20-pcam-5c.runs/system_MIPI_D_PHY_RX_0_0_synth_1/system_MIPI_D_PHY_RX_0_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file system_MIPI_D_PHY_RX_0_0_utilization_synth.rpt -pb system_MIPI_D_PHY_RX_0_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Thu Apr  7 17:24:54 2022...

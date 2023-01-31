@@ -1,0 +1,7 @@
+Running: xsim.dir/color_behav/xsimk -simmode gui -wdb color_behav.wdb -simrunnum 0 -socket 49139
+Design successfully loaded
+Design Loading Memory Usage: 33316 KB (Peak: 33436 KB)
+Design Loading CPU Usage: 40 ms
+Simulation completed
+Simulation Memory Usage: 115052 KB (Peak: 172584 KB)
+Simulation CPU Usage: 40 ms

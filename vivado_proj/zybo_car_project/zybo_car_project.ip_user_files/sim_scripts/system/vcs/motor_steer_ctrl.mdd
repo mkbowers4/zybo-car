@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER motor_steer_ctrl
+	OPTION supported_peripherals = (motor_steer_ctrl);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = motor_steer_ctrl;
+END DRIVER

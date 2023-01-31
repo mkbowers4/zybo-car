@@ -1,0 +1,12 @@
+/* /tmp/bootgen_THENEWAPP1_system10653700405819515087/sd_card_temp/boot.bif */
+/* Command to create bitstream .bin file:       */
+/*   bootgen -image <bif_file> -split bin -w    */
+/* Command to create BOOT.BIN file:             */
+/*   bootgen  -image <bif_file> -w -o i BOOT.BIN */
+/*NEWPLATFORM1*/
+the_ROM_image:
+{
+ [bootloader] /home/mike/workspace_thirdtestonboard/NEWPLATFORM1/export/NEWPLATFORM1/sw/NEWPLATFORM1/boot/fsbl.elf
+ /home/mike/workspace_thirdtestonboard/THENEWAPP1/_ide/bitstream/THENEWEXPORT.bit
+ /home/mike/workspace_thirdtestonboard/THENEWAPP1/Debug/THENEWAPP1.elf
+}

@@ -1,0 +1,38 @@
++=================+=============================+==============================================================================================+
+| Launch Clock    | Capture Clock               | Pin                                                                                          |
++=================+=============================+==============================================================================================+
+| pixel_dynclk    | clk_out1_system_clk_wiz_0_0 | system_i/videoprocessor_0/U0/videoprocessor_v2_0_S00_AXI_inst/axi_rdata_reg[30]/D            |
+| pixel_dynclk    | clk_out1_system_clk_wiz_0_0 | system_i/videoprocessor_0/U0/videoprocessor_v2_0_S00_AXI_inst/axi_rdata_reg[9]/D             |
+| pixel_dynclk    | clk_out1_system_clk_wiz_0_0 | system_i/videoprocessor_0/U0/videoprocessor_v2_0_S00_AXI_inst/axi_rdata_reg[0]/D             |
+| pixel_dynclk    | clk_out1_system_clk_wiz_0_0 | system_i/videoprocessor_0/U0/videoprocessor_v2_0_S00_AXI_inst/axi_rdata_reg[5]/D             |
+| pixel_dynclk    | clk_out1_system_clk_wiz_0_0 | system_i/videoprocessor_0/U0/videoprocessor_v2_0_S00_AXI_inst/axi_rdata_reg[10]/D            |
+| pixel_dynclk    | clk_out1_system_clk_wiz_0_0 | system_i/videoprocessor_0/U0/videoprocessor_v2_0_S00_AXI_inst/axi_rdata_reg[25]/D            |
+| pixel_dynclk    | clk_out1_system_clk_wiz_0_0 | system_i/videoprocessor_0/U0/videoprocessor_v2_0_S00_AXI_inst/axi_rdata_reg[31]/D            |
+| pixel_dynclk    | clk_out1_system_clk_wiz_0_0 | system_i/videoprocessor_0/U0/videoprocessor_v2_0_S00_AXI_inst/axi_rdata_reg[21]/D            |
+| pixel_dynclk    | clk_out1_system_clk_wiz_0_0 | system_i/videoprocessor_0/U0/videoprocessor_v2_0_S00_AXI_inst/axi_rdata_reg[6]/D             |
+| pixel_dynclk    | clk_out1_system_clk_wiz_0_0 | system_i/videoprocessor_0/U0/videoprocessor_v2_0_S00_AXI_inst/axi_rdata_reg[4]/D             |
+| pixel_dynclk    | clk_out1_system_clk_wiz_0_0 | system_i/videoprocessor_0/U0/videoprocessor_v2_0_S00_AXI_inst/axi_rdata_reg[12]/D            |
+| pixel_dynclk    | clk_out1_system_clk_wiz_0_0 | system_i/videoprocessor_0/U0/videoprocessor_v2_0_S00_AXI_inst/axi_rdata_reg[17]/D            |
+| pixel_dynclk    | clk_out1_system_clk_wiz_0_0 | system_i/videoprocessor_0/U0/videoprocessor_v2_0_S00_AXI_inst/axi_rdata_reg[7]/D             |
+| pixel_dynclk    | clk_out1_system_clk_wiz_0_0 | system_i/videoprocessor_0/U0/videoprocessor_v2_0_S00_AXI_inst/axi_rdata_reg[20]/D            |
+| pixel_dynclk    | clk_out1_system_clk_wiz_0_0 | system_i/videoprocessor_0/U0/videoprocessor_v2_0_S00_AXI_inst/axi_rdata_reg[2]/D             |
+| pixel_dynclk    | clk_out1_system_clk_wiz_0_0 | system_i/videoprocessor_0/U0/videoprocessor_v2_0_S00_AXI_inst/axi_rdata_reg[1]/D             |
+| pixel_dynclk    | clk_out1_system_clk_wiz_0_0 | system_i/videoprocessor_0/U0/videoprocessor_v2_0_S00_AXI_inst/axi_rdata_reg[15]/D            |
+| pixel_dynclk    | clk_out1_system_clk_wiz_0_0 | system_i/videoprocessor_0/U0/videoprocessor_v2_0_S00_AXI_inst/axi_rdata_reg[18]/D            |
+| pixel_dynclk    | clk_out1_system_clk_wiz_0_0 | system_i/videoprocessor_0/U0/videoprocessor_v2_0_S00_AXI_inst/axi_rdata_reg[3]/D             |
+| pixel_dynclk    | clk_out1_system_clk_wiz_0_0 | system_i/videoprocessor_0/U0/videoprocessor_v2_0_S00_AXI_inst/axi_rdata_reg[26]/D            |
+| pixel_dynclk    | clk_out1_system_clk_wiz_0_0 | system_i/videoprocessor_0/U0/videoprocessor_v2_0_S00_AXI_inst/axi_rdata_reg[24]/D            |
+| pixel_dynclk    | clk_out1_system_clk_wiz_0_0 | system_i/videoprocessor_0/U0/videoprocessor_v2_0_S00_AXI_inst/axi_rdata_reg[22]/D            |
+| pixel_dynclk    | clk_out1_system_clk_wiz_0_0 | system_i/videoprocessor_0/U0/videoprocessor_v2_0_S00_AXI_inst/axi_rdata_reg[8]/D             |
+| pixel_dynclk    | clk_out1_system_clk_wiz_0_0 | system_i/videoprocessor_0/U0/videoprocessor_v2_0_S00_AXI_inst/axi_rdata_reg[14]/D            |
+| pixel_dynclk    | clk_out1_system_clk_wiz_0_0 | system_i/videoprocessor_0/U0/videoprocessor_v2_0_S00_AXI_inst/axi_rdata_reg[23]/D            |
+| pixel_dynclk    | clk_out1_system_clk_wiz_0_0 | system_i/videoprocessor_0/U0/videoprocessor_v2_0_S00_AXI_inst/axi_rdata_reg[11]/D            |
+| pixel_dynclk    | clk_out1_system_clk_wiz_0_0 | system_i/videoprocessor_0/U0/videoprocessor_v2_0_S00_AXI_inst/axi_rdata_reg[16]/D            |
+| pixel_dynclk    | clk_out1_system_clk_wiz_0_0 | system_i/videoprocessor_0/U0/videoprocessor_v2_0_S00_AXI_inst/axi_rdata_reg[27]/D            |
+| pixel_dynclk    | clk_out1_system_clk_wiz_0_0 | system_i/videoprocessor_0/U0/videoprocessor_v2_0_S00_AXI_inst/axi_rdata_reg[28]/D            |
+| pixel_dynclk    | clk_out1_system_clk_wiz_0_0 | system_i/videoprocessor_0/U0/videoprocessor_v2_0_S00_AXI_inst/axi_rdata_reg[29]/D            |
+| pixel_dynclk    | clk_out1_system_clk_wiz_0_0 | system_i/videoprocessor_0/U0/videoprocessor_v2_0_S00_AXI_inst/axi_rdata_reg[13]/D            |
+| pixel_dynclk    | clk_out1_system_clk_wiz_0_0 | system_i/videoprocessor_0/U0/videoprocessor_v2_0_S00_AXI_inst/axi_rdata_reg[19]/D            |
+| dphy_hs_clock_p | dphy_hs_clock_p             | system_i/MIPI_D_PHY_RX_0/U0/DataLaneGen[0].DPHY_LaneSFEN_X/HSDeserializerX/Deserializer/DDLY |
+| dphy_hs_clock_p | dphy_hs_clock_p             | system_i/MIPI_D_PHY_RX_0/U0/DataLaneGen[1].DPHY_LaneSFEN_X/HSDeserializerX/Deserializer/DDLY |
++-----------------+-----------------------------+----------------------------------------------------------------------------------------------+

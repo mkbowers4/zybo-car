@@ -1,0 +1,10 @@
+
+
+OPTION psf_version = 2.1;
+
+BEGIN DRIVER videoprocessor
+	OPTION supported_peripherals = (videoprocessor);
+	OPTION copyfiles = all;
+	OPTION VERSION = 1.0;
+	OPTION NAME = videoprocessor;
+END DRIVER
